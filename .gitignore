@@ -1,0 +1,31 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/plugins/hello.php
+
+# WordPress Multisite
+wp-content/blogs.php
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# Node.js dependencies
+node_modules/
+
+# Composer
+composer.lock
+
+# Log files
+*.log
+
+# Temporary files
+*.swp
+*.swo
