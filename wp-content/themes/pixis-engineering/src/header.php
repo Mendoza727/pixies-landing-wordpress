@@ -38,7 +38,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-pixies.png" width="150px" walt="logo-header" loading="lazy">
                     </a>
                     <a class="main_sticky" href="index.html" title="solutek">
-                        <img src="	<?php echo get_template_directory_uri(); ?>/assets/images/logo-pixies-blanco.png" width="150px" alt="logo-sticky" loading="lazy">
+                        <img src="	<?php echo get_template_directory_uri(); ?>/assets/images/Logo-pixies-blanco.png" width="150px" alt="logo-sticky" loading="lazy">
                     </a>
                 </div>
             </div>
