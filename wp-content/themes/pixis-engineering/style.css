@@ -286,6 +286,8 @@ nav.solutek_menu span {
 
 .mobile-menu.mean-container {
   overflow: hidden;
+  z-index: 999;
+  position: relative;
 }
 
 .header-btn {
@@ -3369,7 +3371,7 @@ ul.list-style-one li a:hover {
 <!-- Start solutek service Area style two  -->
 <!-- =====================================-->*/
 .service-area.style-two {
-  padding: 120px 0 125px;
+  padding: 60px 0 0px;
 }
 
 .service-area.style-two .section-title.text-center {
@@ -3381,12 +3383,12 @@ ul.list-style-one li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  border-radius: 35px 0 35px 35px;
+  border-radius: 35px 0 35px 3f5px;
   padding: 32px 20px 56px;
   text-align: center;
   position: relative;
   transition: 0.5s;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 .service-area.style-two .single-service-box::before {
@@ -3394,7 +3396,7 @@ ul.list-style-one li a:hover {
   content: "";
   width: 175px;
   height: 5px;
-  background-color: #050a1e;
+  background-color: var(--color-deep-blue);
   top: -5px;
   right: 0;
   z-index: 1;
@@ -3463,7 +3465,7 @@ ul.list-style-one li a:hover {
   height: 70px;
   line-height: 70px;
   border-radius: 35px;
-  background-color: #f4f4f4;
+  background-color: var(--color-deep-blue);
   position: absolute;
   bottom: -34px;
   left: 0;
@@ -4403,7 +4405,7 @@ ul.list-style-one li a:hover {
 
 /* home style-three manu-area */
 .solutek_nav_manu.style-three {
-  padding: 15px 90px 12px 140px;
+  padding: 20px 20px 20px 20px;
 }
 
 .solutek_nav_manu.style-three .solutek_menu > ul > li > a {
@@ -4442,7 +4444,6 @@ ul.list-style-one li a:hover {
 
 .solutek_nav_manu.style-three .solutek-btn {
   display: inline-block;
-  margin-left: 18px;
 }
 
 /* hero area home 03 */
@@ -4714,7 +4715,7 @@ ul.list-style-one li a:hover {
   <!-- start solutek about section -->
 =========================================================---*/
 .about-section {
-  padding: 120px 0 30px;
+  padding: 0px 0 60px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

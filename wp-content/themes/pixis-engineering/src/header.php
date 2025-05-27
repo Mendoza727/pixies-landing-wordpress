@@ -28,20 +28,21 @@
     </div>
 </div>
 
+<!-- header PC-->
 <div id="sticky-header" class="solutek_nav_manu style-three">
     <div class="container-fluid">
         <div class="row d-flex align-items-center">
             <div class="col-lg-2">
                 <div class="logo">
                     <a class="logo_img" href="index.html" title="solutek">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-pixies.png" width="200px" walt="logo-header" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-pixies.png" width="150px" walt="logo-header" loading="lazy">
                     </a>
                     <a class="main_sticky" href="index.html" title="solutek">
-                        <img src="	<?php echo get_template_directory_uri(); ?>/assets/images/logo-pixies-blanco.png" width="200px" alt="logo-sticky" loading="lazy">
+                        <img src="	<?php echo get_template_directory_uri(); ?>/assets/images/logo-pixies-blanco.png" width="150px" alt="logo-sticky" loading="lazy">
                     </a>
                 </div>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-8">
                 <nav class="solutek_menu">
                     <ul class="nav_scroll">
                         <li><a href="#hero">Inicio</a></li>
@@ -51,7 +52,7 @@
                     </ul>
                 </nav>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2">
                 <div class="header-menu-btn">
                     <div class="solutek-btn">
                         <a class="btn-2" href="#contact">Contactanos</a>
@@ -62,7 +63,7 @@
     </div>
 </div>
 
-<!-- solutek Mobile Menu Area -->
+<!-- header mobile -->
 <div class="mobile-menu mobile-menu-area d-sm-block d-md-block d-lg-none ">
     <nav class="solutek_menu">
         <ul class="nav_scroll">
@@ -73,5 +74,4 @@
             <li><a href="#contact">Contáctanos</a></li>
         </ul>
     </nav>
-</div>
 </div>

@@ -1172,6 +1172,8 @@ h3.blog-title a {
 .hero-area.style-three {
 
     overflow: hidden;
+    height: 750px!important;
+    padding-bottom: 130px!important;
 }
 
 .hero-img img {
@@ -1798,6 +1800,7 @@ h3.blog-title-two a {
 
 .hero-area.style-three {
     height: 600px;
+    padding-bottom: 120px!important;
 }
 
 .hero-area.style-three .hero-left-side {
@@ -3588,7 +3591,7 @@ h3.blog-details-title.two {
 
 /* hero area */
 .hero-area {
-    height: 1200px;
+    height: 1200px!important;
     margin: 0;
 }
 

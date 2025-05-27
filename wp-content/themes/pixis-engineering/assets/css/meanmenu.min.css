@@ -1,15 +1,29 @@
+:root {
+  /* Colores Principales */
+  --color-deep-blue: #005FAB;
+  --color-electrifying-green: #00C897;
+
+  /* Colores de Acento Contraste */
+  --color-emergent-orange: #FF6B35;
+  --color-industrial-grey: #333333;
+
+  /* Fondo */
+  --color-snow-white: #FFFFFF;
+}
+
+
 a.meanmenu-reveal{display:none}
 .mean-container .mean-bar {
-  background: #ff3b00;
+  background: var(--color-snow-white);
   float: left;
-  min-height: 60px;
-  padding: 4px 0 0;
+  min-height: 70px;
+  padding: 10px 0 0;
   position: relative;
   width: 100%;
-  z-index: 999;
+  z-index: 1;
   text-transform: capitalize;
 }
-.mean-container a.meanmenu-reveal{width:22px;height:22px;padding:18px;top:0;right:0;cursor:pointer;color:#fff;text-decoration:none;font-size:16px;text-indent:-9999em;line-height:22px;font-size:1px;display:block;font-family:Arial,Helvetica,sans-serif;font-weight:700;float: right;}
+.mean-container a.meanmenu-reveal{width:22px;height:22px;padding:18px;top:0;right:0;cursor:pointer;color:#040404;text-decoration:none;font-size:16px;text-indent:-9999em;line-height:22px;font-size:1px;display:block;font-family:Arial,Helvetica,sans-serif;font-weight:700;float: right;}
 .mean-container a.meanmenu-reveal span{display:block;background:#fff;height:3px;margin-top:3px}
 .mean-container .mean-nav{float:left;width:100%;background:#0c1923}
 .mean-container .mean-nav ul{padding:0;margin:0;width:100%;list-style-type:none}
@@ -99,7 +113,7 @@ a.meanmenu-reveal{display:none}
 	border-radius: 0;
 }
 .mean-container a.meanmenu-reveal span {
-  background: #fff;
+  background: var(--color-industrial-grey);
 }
 .mobile-menu-area {
   background: #fff none repeat scroll 0 0;
@@ -115,13 +129,13 @@ a.meanmenu-reveal{display:none}
   background: #444;
 }
 .mean-container a.meanmenu-reveal {
-  color: #fff;
+  color: var(--color-emergent-orange);
 }
 .meanmenu-reveal.meanclose:hover {
-  color: #fff !important;
+  color: var(--color-emergent-orange);
 }
 .mean-container a.meanmenu-reveal:hover span {
-  background: #fff;
+  background: var(--color-emergent-orange);
 }
 .mean-container .mean-bar::before {
 	color: #fff;
