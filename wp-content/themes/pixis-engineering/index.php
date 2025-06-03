@@ -12,27 +12,9 @@ get_header();
       <div class="loder-section left-section"></div>
       <div class="loder-section right-section"></div>
     </div>
-    
-    <?php if (isset($_GET['all_posts']) && '1' === $_GET['all_posts']) : ?>
 
-      <!-- ==== LISTADO DE TODOS LOS POSTS ==== -->
-      <?php
-      $all_posts = new WP_Query([
-        'post_type'      => 'post',
-        'posts_per_page' => -1,
-      ]);
-      if ($all_posts->have_posts()) :
-        while ($all_posts->have_posts()) :
-          $all_posts->the_post();
-          include(get_template_directory() . '/src/template-parts/content-all-post.php');
-        endwhile;
-        wp_reset_postdata();
-      else :
-        echo '<p>No hay entradas para mostrar.</p>';
-      endif;
-      ?>
-
-    <?php else : ?>
+    <div class="curser d-none"></div>
+    <div class="curser2 d-none"></div>
 
       <!-- ==== SECCIONES DE LA HOME ==== -->
       <?php
@@ -43,8 +25,6 @@ get_header();
       include(get_template_directory() . '/src/template-parts/content-contact.php');
       include(get_template_directory() . '/src/template-parts/content-blog.php');
       ?>
-
-    <?php endif; ?>
 
     <!-- top to tap -->
     <div class="scroll-area">

@@ -46,23 +46,21 @@ Tags:     agency, business, consulting, corporate, cyber security, finance, it a
 
 :root {
   /* Colores Principales */
-  --color-deep-blue: #005FAB;
-  --color-electrifying-green: #00C897;
+  --color-deep-blue: #005fab;
+  --color-deep-blue-dark: #004780;
+  --color-electrifying-green: #00c897;
 
   /* Colores de Acento Contraste */
-  --color-emergent-orange: #FF6B35;
+  --color-emergent-orange: #ff6b35;
   --color-industrial-grey: #333333;
 
   /* Fondo */
-  --color-snow-white: #FFFFFF;
+  --color-snow-white: #ffffff;
 }
-
-
 
 .solutek_nav_manu {
   padding: 35px 39px 0;
 }
-
 
 .sticky {
   left: 0;
@@ -118,7 +116,6 @@ nav.solutek_menu {
   font-size: 16px;
   color: #ffffff;
   font-weight: 400;
-  font-family: "Fira Sans";
 }
 
 nav.solutek_menu ul li a i {
@@ -145,7 +142,7 @@ nav.solutek_menu span {
 }
 
 .solutek_menu > ul > li > a:hover {
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
 }
 
 /*** Sub Menu Style ***/
@@ -162,8 +159,8 @@ nav.solutek_menu span {
   transition: 0.5s;
   visibility: hidden;
   opacity: 0;
-  border-bottom: 3px solid #ff3b00;
-  border-top: 3px solid #ff3b00;
+  border-bottom: 3px solid var(--color-emergent-orange);
+  border-top: 3px solid var(--color-emergent-orange);
 }
 
 .solutek_menu ul li:hover > .sub-menu {
@@ -198,7 +195,7 @@ nav.solutek_menu span {
 .solutek_menu ul .sub-menu .sub-menu li:hover > a,
 .solutek_menu ul .sub-menu .sub-menu .sub-menu li:hover > a,
 .solutek_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover > a {
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   color: #fff !important;
 }
 
@@ -276,8 +273,8 @@ nav.solutek_menu span {
 
 .solutek_nav_manu.sticky a.dtbtn {
   color: #fff;
-  background: #f16722;
-  border: 2px solid #f16722;
+  background: var(--color-emergent-orange);
+  border: 2px solid var(--color-emergent-orange);
 }
 
 .solutek_nav_manu.sticky a.dtbtn:hover {
@@ -299,7 +296,7 @@ nav.solutek_menu span {
   font-size: 15px;
   line-height: 48px;
   text-transform: uppercase;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-weight: 600;
   text-decoration: none;
   position: relative;
@@ -311,7 +308,7 @@ nav.solutek_menu span {
   content: "";
   height: 1px;
   width: 0%;
-  background: #ff3c00;
+  background: var(--color-emergent-orange);
   bottom: 15px;
   transition: 0.5s;
 }
@@ -343,7 +340,7 @@ nav.solutek_menu span {
 
 .hero-contant h5 {
   font-size: 16px;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-weight: 600;
   font-family: "Poppins";
   border-radius: 20px;
@@ -363,7 +360,7 @@ nav.solutek_menu span {
   content: "";
   width: 30px;
   height: 7px;
-  background: #ff3d00;
+  background: var(--color-emergent-orange);
   border-radius: 30px;
   left: -8%;
   top: 14px;
@@ -384,7 +381,7 @@ nav.solutek_menu span {
   line-height: 30px;
   color: #ffffff;
   font-weight: 400;
-  font-family: "Fira Sans";
+
   width: 91%;
   margin: 0;
   padding: 13px 0 43px;
@@ -395,7 +392,7 @@ nav.solutek_menu span {
 }
 
 .solutek-btn a:hover {
-  color: #ff3d00;
+  color: var(--color-emergent-orange);
 }
 
 .hero-video-icon {
@@ -404,7 +401,7 @@ nav.solutek_menu span {
 
 .hero-video-icon a i {
   display: inline-block;
-  background: #ff3d00;
+  background: var(--color-emergent-orange);
   width: 55px;
   height: 55px;
   line-height: 55px;
@@ -438,7 +435,7 @@ nav.solutek_menu span {
   text-decoration: underline;
   color: #ffffff;
   font-weight: 400;
-  font-family: "Fira Sans";
+
   margin-left: 32px;
 }
 
@@ -460,7 +457,9 @@ nav.solutek_menu span {
   right: -10%;
   top: -25%;
   -webkit-animation-name: rotateme;
+  animation-name: rotateme;
   -webkit-animation-duration: 15s;
+  animation-duration: 15s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
@@ -471,8 +470,6 @@ nav.solutek_menu span {
 /*=====================================
 <--  end solutek hero Area Css -->
 =======================================*/
-
-
 
 /*=====================================
 <-- 03.start solutek feature Area Css -->
@@ -569,7 +566,7 @@ nav.solutek_menu span {
 
 h3.feature-title {
   font-size: 18px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
   font-family: "Poppins";
   margin: 0;
@@ -583,7 +580,7 @@ p.feature-text {
   line-height: 26px;
   color: #7a7a7a;
   font-weight: 400;
-  font-family: "Fira Sans";
+
   margin: 0;
   transition: 0.5s;
 }
@@ -612,8 +609,6 @@ p.feature-text {
 <--  end solutek feature Area Css -->
 =======================================*/
 
-
-
 /*==============================================
 <-- 04.start solutek section-title Area Css -->
 ================================================*/
@@ -627,37 +622,34 @@ p.feature-text {
 }
 
 h5.section-sub-title {
-  font-size: 16px;
-  color: #ff3c00;
+  font-size: 22px;
+  color: var(--color-deep-blue);
   font-weight: 600;
-  font-family: "Poppins";
   border-radius: 20px;
-  background-color: rgba(255, 60, 0, 0.03137254901960784);
-  border: 1px solid rgba(122, 122, 122, 0.15);
+  border: 2px solid var(--color-electrifying-green);
   display: inline-block;
-  padding: 6px 29px;
+  padding: 15px 120px;
   margin: 0;
   position: relative;
   z-index: 1;
-  margin-bottom: 22px;
   line-height: 25px;
 }
 
 h5.section-sub-title::before {
   position: absolute;
   content: "";
-  width: 30px;
-  height: 7px;
-  background: #ff3d00;
+  width: 110px;
+  height: 20px;
+  background: var(--color-electrifying-green);
   border-radius: 30px;
-  left: -8%;
-  top: 14px;
+  left: -9%;
+  top: 15px;
 }
 
 h1.section-main-title {
   font-size: 42px;
   line-height: 55px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 700;
   font-family: "Poppins";
   margin: 0;
@@ -665,7 +657,7 @@ h1.section-main-title {
 
 h1.section-main-title span {
   display: inline-block;
-  color: #ff3d00;
+  color: var(--color-emergent-orange);
 }
 
 p.section-title-descr {
@@ -711,7 +703,7 @@ p.section-descr::before {
   margin: 0;
   font-size: 28px;
   line-height: 38px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
   font-family: "Poppins";
 }
@@ -722,8 +714,6 @@ p.section-descr::before {
 
 .contact-area h5.section-sub-title {
   margin-bottom: 14px;
-  background-color: #f4f4f4;
-  border: 2px solid #ffffff;
 }
 
 /* section title home three */
@@ -732,7 +722,7 @@ h6.section-sub-title {
   font-size: 17px;
   line-height: 28px;
   text-transform: uppercase;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-weight: 600;
   font-family: "Poppins";
   position: relative;
@@ -742,35 +732,43 @@ h6.section-sub-title {
 
 h6.section-sub-title::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 70px;
   height: 2px;
-  background-image: linear-gradient(270deg, #ffffff 0%, #ff3b00 100%);
+  background-image: linear-gradient(
+    270deg,
+    #ffffff 0%,
+    var(--color-emergent-orange) 100%
+  );
   left: -76px;
   top: 12px;
 }
 
 h6.section-sub-title::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 70px;
   height: 2px;
-  background-image: linear-gradient(270deg, #ff3b00 0%, #ffffff 100%);
+  background-image: linear-gradient(
+    270deg,
+    var(--color-emergent-orange) 0%,
+    #ffffff 100%
+  );
   right: -74px;
   top: 12px;
 }
 
 h1.section-main-title2 {
   font-size: 45px;
-  line-height:55px;
+  line-height: 55px;
   text-transform: uppercase;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
   font-family: "Poppins";
 }
 
 .about-section h6.section-sub-title {
-  margin-left:70px;
+  margin-left: 70px;
 }
 
 .about-section h6.section-sub-title::before {
@@ -793,11 +791,19 @@ h1.section-main-title2 {
 }
 
 .case-studies-area h6.section-sub-title::before {
-  background-image: linear-gradient(270deg, #05091d 0%, #ff3b00 100%);
+  background-image: linear-gradient(
+    270deg,
+    #05091d 0%,
+    var(--color-emergent-orange) 100%
+  );
 }
 
 .case-studies-area h6.section-sub-title::after {
-  background-image: linear-gradient(270deg, #ff3b00 0%, #05091d 100%);
+  background-image: linear-gradient(
+    270deg,
+    var(--color-emergent-orange) 0%,
+    #05091d 100%
+  );
 }
 
 .case-studies-area h1.section-main-title2 {
@@ -805,7 +811,7 @@ h1.section-main-title2 {
 }
 
 .testimonial-area.style-four h1.section-main-title {
-  color: #050a1e;
+  color: var(--color-deep-blue);
 }
 
 .testimonial-area.style-four h6.section-sub-title {
@@ -826,7 +832,7 @@ h1.section-main-title2 {
 }
 
 .faq-area.style-two h6.section-sub-title {
-  margin-left:70px;
+  margin-left: 70px;
 }
 
 .faq-area.style-two h6.section-sub-title::before {
@@ -838,12 +844,9 @@ h1.section-main-title2 {
   display: none;
 }
 
-
 /*=====================================
 <--  end solutek section-title Area Css -->
 =======================================*/
-
-
 
 /*=====================================
 <-- 05.start solutek contact Area Css -->
@@ -858,8 +861,7 @@ h1.section-main-title2 {
   position: relative;
 }
 
-.contact-area
-.form_box input {
+.contact-area .form_box input {
   border: 1px solid var(--color-electrifying-green);
   height: 60px;
   border-radius: 15px;
@@ -871,7 +873,6 @@ h1.section-main-title2 {
   line-height: 26px;
   color: #7a7a7a;
   font-weight: 400;
-  font-family: "Fira Sans";
 }
 
 .form_box input::placeholder {
@@ -879,7 +880,6 @@ h1.section-main-title2 {
   line-height: 26px;
   color: #7a7a7a;
   font-weight: 400;
-  font-family: "Fira Sans";
 }
 
 .form_box textarea {
@@ -895,7 +895,6 @@ h1.section-main-title2 {
   line-height: 26px;
   color: #7a7a7a;
   font-weight: 400;
-  font-family: "Fira Sans";
 }
 
 .form_box textarea::placeholder {
@@ -903,18 +902,16 @@ h1.section-main-title2 {
   line-height: 26px;
   color: #7a7a7a;
   font-weight: 400;
-  font-family: "Fira Sans";
 }
 
 .quote_button button {
-  background: #ff3d00;
+  background: var(--color-emergent-orange);
   padding: 14px 48px 14px;
   border-radius: 30px;
   transition: 0.5s;
   font-size: 16px;
   color: #ffffff;
   font-weight: 500;
-  font-family: "Fira Sans";
 }
 
 .quote_button button i {
@@ -928,14 +925,14 @@ h1.section-main-title2 {
 
 .form_box input:focus,
 .form_box textarea:focus {
-  border-color: #ff3d00;
+  border-color: var(--color-emergent-orange);
   outline: 0;
   box-shadow: 0 0 4px rgb(255, 61, 0, 0.5);
 }
 
 .quote_button button:hover {
   color: #fff;
-  background: #050a1e;
+  background: var(--color-deep-blue);
 }
 
 .contact-box {
@@ -965,9 +962,9 @@ h1.section-main-title2 {
 .contact-video-icon a {
   display: inline-block;
   font-size: 18px;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-weight: 500;
-  font-family: "Fira Sans";
+
   text-decoration: none;
   height: 100%;
   width: 100%;
@@ -981,14 +978,17 @@ h1.section-main-title2 {
 <--  end solutek contact Area Css -->
 =======================================*/
 
-
 /*=====================================
 <-- 06. start solutek blog Area Css -->
 =======================================*/
 
 .blog-area {
   padding: 50px 0 89px;
-  background: linear-gradient(100deg,rgba(0, 95, 171, 1) 0%, rgba(0, 200, 151, 1) 100%);
+  background: linear-gradient(
+    100deg,
+    rgba(0, 95, 171, 1) 0%,
+    rgba(0, 200, 151, 1) 100%
+  );
 }
 
 .blog-singele-box {
@@ -1005,7 +1005,7 @@ h1.section-main-title2 {
 }
 
 .blog-date {
-  background: #fe3c00;
+  background: var(--color-emergent-orange);
   border-radius: 10px;
   padding: 10px 24px;
   position: absolute;
@@ -1017,7 +1017,7 @@ h1.section-main-title2 {
   line-height: 36px;
   color: #ffffff;
   font-weight: 400;
-  font-family: "Fira Sans";
+
   margin: 0;
 }
 
@@ -1048,7 +1048,7 @@ h3.blog-title a {
   display: inline-block;
   font-size: 26px;
   line-height: 36px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
   font-family: "Poppins";
   text-decoration: none;
@@ -1056,7 +1056,7 @@ h3.blog-title a {
 }
 
 h3.blog-title a:hover {
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 h3.blog-title {
@@ -1074,13 +1074,13 @@ p.blog-tex {
   line-height: 28px;
   color: #7a7a7a;
   font-weight: 500;
-  font-family: "Fira Sans";
+
   text-decoration: none;
   transition: 0.5s;
 }
 
 .blog-btn a:hover {
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 .blog-btn a i {
@@ -1120,14 +1120,14 @@ p.blog-tex {
   line-height: 36px;
   color: #7a7a7a;
   font-weight: 400;
-  font-family: "Fira Sans";
+
   margin: 0;
 }
 
 .blog-date-tow h4 i {
   display: inline-block;
   font-size: 16px;
-  color: #ff3d00;
+  color: var(--color-emergent-orange);
   margin-right: 16px;
 }
 
@@ -1143,7 +1143,7 @@ p.blog-tex {
   content: "";
   height: 20px;
   width: 1px;
-  background: #ff3d00;
+  background: var(--color-emergent-orange);
   left: -48px;
   top: 8px;
 }
@@ -1156,7 +1156,7 @@ h3.blog-title-two {
 
 h3.blog-title-two a {
   font-size: 22px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
   font-family: "Poppins";
   text-decoration: none;
@@ -1164,7 +1164,7 @@ h3.blog-title-two a {
 }
 
 h3.blog-title-two a:hover {
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 .blog-btn-tow a {
@@ -1173,13 +1173,13 @@ h3.blog-title-two a:hover {
   line-height: 28px;
   color: #7a7a7a;
   font-weight: 500;
-  font-family: "Fira Sans";
+
   text-decoration: none;
   transition: 0.5s;
 }
 
 .blog-btn-tow a:hover {
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 .blog-btn-tow a i {
@@ -1193,10 +1193,6 @@ h3.blog-title-two a:hover {
 /*=====================================
 <--  start solutek blog Area Css -->
 =======================================*/
-
-
-
-
 
 /*=====================================
 <--  start solutek about Area Css -->
@@ -1260,13 +1256,13 @@ h4.about-title {
 }
 
 .about-icon img {
-  margin-left:-22px;
+  margin-left: -22px;
 }
 
 .about-tiltle h3 {
   font-size: 18px;
   line-height: 55px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
   font-family: "Poppins";
   margin: 0;
@@ -1286,7 +1282,7 @@ h4.about-title {
 
 .solutek-btn a {
   display: inline-block;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   text-decoration: none;
   padding: 16px 28px;
   font-size: 15px;
@@ -1300,11 +1296,11 @@ h4.about-title {
 }
 
 .hero-area.style-three .solutek-btn a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .solutek-hover-btn {
-  background-color: #050a1e;
+  background-color: var(--color-deep-blue);
   height: 100%;
   top: 0;
   opacity: 0;
@@ -1354,7 +1350,7 @@ h4.about-title {
 }
 .solutek-button a {
   display: inline-block;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   text-decoration: none;
   padding: 16px 28px;
   font-size: 15px;
@@ -1364,14 +1360,13 @@ h4.about-title {
   border-radius: 30px;
 }
 
-
 .btn-2:hover {
   background-image: linear-gradient(
     90deg,
-    #ff3b00 0%,
+    var(--color-emergent-orange) 0%,
     #ffcf00 49%,
     #a52600 80%,
-    #ff3b00 100%
+    var(--color-emergent-orange) 100%
   );
   animation: slidebg 5s linear infinite;
   color: #fff;
@@ -1385,8 +1380,6 @@ h4.about-title {
 /*=====================================
 <--  end solutek about Area Css -->
 =======================================*/
-
-
 
 /*=====================================
 <--  start solutek service Area Css -->
@@ -1436,7 +1429,7 @@ h4.about-title {
 
 h3.service-title {
   font-size: 22px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
   font-family: "Poppins";
   margin: 0;
@@ -1461,7 +1454,7 @@ p.service-text {
 
 .service-btn i {
   display: inline-block;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   background: #f4f4f4;
   width: 35px;
   height: 35px;
@@ -1534,11 +1527,7 @@ p.service-text {
 =======================================*/
 
 .project-area {
-  padding: 40px 0 88px;
-  background: url(assets/images/image-footer-proyect.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  padding: 50px 0 30px;
 }
 
 .row.project {
@@ -1601,7 +1590,7 @@ h3.project-title a {
 p.project-text {
   display: inline-block;
   border-radius: 20px;
-  background-color: #050a1e;
+  background-color: var(--color-deep-blue);
   font-size: 15px;
   text-transform: uppercase;
   color: #fefefe;
@@ -1618,7 +1607,7 @@ p.project-text::before {
   content: "";
   height: 100%;
   width: 100%;
-  background: #ff3d00;
+  background: var(--color-emergent-orange);
   left: 0;
   top: 0;
   z-index: -12;
@@ -1632,7 +1621,7 @@ p.project-text:hover::before {
 }
 
 h3.project-title a:hover {
-  color: #ff3d00;
+  color: var(--color-emergent-orange);
 }
 
 .project-area .owl-dots {
@@ -1644,7 +1633,7 @@ h3.project-title a:hover {
 .owl-dot.active {
   width: 10px;
   height: 10px;
-  background: #ff3d00;
+  background: var(--color-emergent-orange);
   display: inline-block;
   margin-right: 26px;
   border-radius: 50%;
@@ -1753,7 +1742,7 @@ h3.project-title a:hover {
 
 h1.priching-doller {
   font-size: 45px;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-weight: 600;
   font-family: "Poppins";
   margin: 0;
@@ -1803,7 +1792,7 @@ ul.pricing-list li {
 }
 
 ul.pricing-list li i {
-  color: #ff3d00;
+  color: var(--color-emergent-orange);
   font-size: 18px;
   position: relative;
   top: 2px;
@@ -1811,13 +1800,13 @@ ul.pricing-list li i {
 }
 
 .pricing-area .solutek-hover-btn {
-  background-color: #ff3d00;
+  background-color: var(--color-emergent-orange);
 }
 
 .pricing-area .solutek-btn a {
   background: #f5ebe8;
   padding: 16px 55px;
-  color: #ff3d00;
+  color: var(--color-emergent-orange);
 }
 
 .pricing-area .solutek-btn a:hover {
@@ -1874,7 +1863,7 @@ ul.pricing-list li i {
 h3.faq-title {
   font-size: 28px;
   line-height: 56px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
   font-family: "Poppins";
   margin: 0;
@@ -1882,7 +1871,7 @@ h3.faq-title {
 
 h3.faq-title span {
   display: inline-block;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
 }
 
 p.faq-description {
@@ -1927,7 +1916,7 @@ ul.accordion {
 .accordion a:before {
   width: 3px;
   height: 16px;
-  background: #ff3d00;
+  background: var(--color-emergent-orange);
   position: absolute;
   right: 32px;
   content: " ";
@@ -1940,7 +1929,7 @@ ul.accordion {
 .accordion a:after {
   width: 16px;
   height: 3px;
-  background: #ff3d00;
+  background: var(--color-emergent-orange);
   position: absolute;
   right: 26px;
   content: " ";
@@ -1953,7 +1942,7 @@ ul.accordion {
   transform: rotate(0deg);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background: #ff3d00;
+  background: var(--color-emergent-orange);
   z-index: -1;
 }
 
@@ -1969,7 +1958,7 @@ a.active {
   position: relative;
   z-index: 1;
   font-size: 18px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 500;
   font-family: "Poppins";
 }
@@ -2040,7 +2029,6 @@ a.active {
 <--  end solutek faq-area Css -->
 =======================================*/
 
-
 /*=====================================
 <--  start solutek testimonial-area Css -->
 =======================================*/
@@ -2085,7 +2073,7 @@ h3.testi-title {
   line-height: 28px;
   color: #ffffff;
   font-weight: 600;
-  font-family: "Fira Sans";
+
   margin: 0;
 }
 
@@ -2093,9 +2081,9 @@ h3.testi-title span {
   display: inline-block;
   font-size: 15px;
   line-height: 28px;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-weight: 400;
-  font-family: "Fira Sans";
+
   margin-left: 14px;
 }
 
@@ -2147,8 +2135,6 @@ ul.testi-rating li {
 <--  end solutek testimonial-area Css -->
 =======================================*/
 
-
-
 /*
 <!-- ==========================================-->
 <!-- Start solutek testimonial Area css style-two-->
@@ -2168,7 +2154,7 @@ ul.testi-rating li {
 }
 
 .testimonial-area.style-two h1.section-main-title {
-  color: #050a1e;
+  color: var(--color-deep-blue);
 }
 
 .testimonial-area.style-two .testi-single-box {
@@ -2190,7 +2176,7 @@ ul.testi-rating li {
   content: "";
   width: 175px;
   height: 3px;
-  background-color: #050a1e;
+  background-color: var(--color-deep-blue);
   top: -3px;
   right: 0;
   z-index: 1;
@@ -2202,7 +2188,7 @@ ul.testi-rating li {
   content: "";
   width: 175px;
   height: 3px;
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   left: 66px;
   top: -3px;
   margin: 0 auto;
@@ -2253,9 +2239,9 @@ ul.testi-rating li {
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
-  font-family: "Fira Sans";
+
   margin: 0;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   transition: 0.5s;
 }
 
@@ -2264,7 +2250,7 @@ ul.testi-rating li {
   font-size: 15px;
   line-height: 28px;
   font-weight: 400;
-  font-family: "Fira Sans";
+
   margin-left: 14px;
   color: #7a7a7a;
   transition: 0.5s;
@@ -2332,7 +2318,7 @@ ul.testi-rating li {
 }
 
 .testimonial-area.style-three h1.section-main-title {
-  color: #050a1e;
+  color: var(--color-deep-blue);
 }
 
 .testimonial-area.style-three .testi-single-box {
@@ -2366,14 +2352,12 @@ ul.testi-rating li {
   width: 20px;
   height: 8px;
   border-radius: 4px;
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
 }
 
 .testimonial-area.style-three .owl-dot.active::before {
   display: none;
 }
-
-
 
 /*---=====================================================
    <!-- Start solutek testimonial Area style-four-->
@@ -2400,21 +2384,29 @@ ul.testi-rating li {
 
 .testimonial-area.style-four h4.testi-user-name::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 36px;
   height: 2px;
-  background-image: linear-gradient(270deg, #ff3b00 0%, #ffffff 100%);
+  background-image: linear-gradient(
+    270deg,
+    var(--color-emergent-orange) 0%,
+    #ffffff 100%
+  );
   left: 13px;
   bottom: 13px;
 }
 
 .testimonial-area.style-four h4.testi-user-name::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 36px;
   height: 2px;
-  background-image: linear-gradient(270deg, #ffffff 0%, #ff3b00 100%);
-  right:13px;
+  background-image: linear-gradient(
+    270deg,
+    #ffffff 0%,
+    var(--color-emergent-orange) 100%
+  );
+  right: 13px;
   bottom: 13px;
 }
 
@@ -2425,7 +2417,7 @@ ul.testi-rating li {
   text-transform: uppercase;
   color: #fff;
   font-weight: 500;
-  font-family: "Fira Sans";
+
   text-align: center;
 }
 
@@ -2447,7 +2439,7 @@ ul.testi-rating li {
 .testimonial-area.style-four .testimonial-single-box {
   padding: 35px 40px 15px 40px;
   border-radius: 20px;
-  background-color: rgba(244,244,244,0.5019607843137255);
+  background-color: rgba(244, 244, 244, 0.5019607843137255);
   border: 2px solid #ffffff;
 }
 
@@ -2457,7 +2449,6 @@ ul.testi-rating li {
   color: #7a7a7a;
   font-weight: 400;
   font-style: italic;
-  font-family: "Fira Sans";
 }
 
 .testimonial-area.style-four .testi-review-user {
@@ -2466,16 +2457,16 @@ ul.testi-rating li {
   justify-content: space-between;
 }
 
-.testimonial-area.style-four .testi-review-user h3, .testi-review-user h3 span {
+.testimonial-area.style-four .testi-review-user h3,
+.testi-review-user h3 span {
   font-size: 16px;
   text-transform: uppercase;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 500;
-  font-family: "Fira Sans";
 }
 
 .testimonial-area.style-four .testi-review-user h3 span {
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
 }
 
 .testimonial-area.style-four ul.testi-rating {
@@ -2489,7 +2480,11 @@ ul.testi-rating li {
   content: "";
   width: 50px;
   height: 2px;
-  background-image: linear-gradient(270deg, #f3f3f3 0%, #ff3b00 100%);
+  background-image: linear-gradient(
+    270deg,
+    #f3f3f3 0%,
+    var(--color-emergent-orange) 100%
+  );
   left: -57px;
   top: 13px;
 }
@@ -2501,7 +2496,7 @@ ul.testi-rating li {
 .testimonial-area.style-four .testi-quote-icon::before {
   position: absolute;
   content: "";
-  opacity: 0.200;
+  opacity: 0.2;
   width: 370px;
   height: 2px;
   background-image: linear-gradient(270deg, #f3f3f3 0%, #797979 100%);
@@ -2524,7 +2519,11 @@ ul.testi-rating li {
   content: "";
   width: 2px;
   height: 120px;
-  background-image: linear-gradient(0deg, #ff3b00 0%, #ffffff 100%);
+  background-image: linear-gradient(
+    0deg,
+    var(--color-emergent-orange) 0%,
+    #ffffff 100%
+  );
   left: 34px;
   top: 65px;
 }
@@ -2534,13 +2533,14 @@ ul.testi-rating li {
   content: "";
   width: 2px;
   height: 120px;
-  background-image: linear-gradient(0deg, #ffffff 0%, #ff3b00 100%);
+  background-image: linear-gradient(
+    0deg,
+    #ffffff 0%,
+    var(--color-emergent-orange) 100%
+  );
   left: 34px;
   bottom: 72px;
 }
-
-
-
 
 /*=====================================
 <--  start solutek address-area Css -->
@@ -2550,7 +2550,7 @@ ul.testi-rating li {
   background: var(--color-industrial-grey);
   padding: 25px 0 25px;
   border-radius: 40px 40px 0 0;
-    z-index: 1;
+  z-index: 1;
   margin-top: -40px;
 }
 
@@ -2562,7 +2562,8 @@ ul.testi-rating li {
   margin: 0;
 }
 
-.address-box, .address-box2 {
+.address-box,
+.address-box2 {
   display: flex;
   align-items: center;
 }
@@ -2621,7 +2622,7 @@ ul.testi-rating li {
 }
 
 .address-area .solutek-btn a:hover {
-  color: #ff3d00;
+  color: var(--color-emergent-orange);
 }
 
 /*=====================================
@@ -2649,7 +2650,7 @@ p.footer-widget-text {
   line-height: 26px;
   color: #ffffff;
   font-weight: 400;
-  font-family: "Fira Sans";
+
   margin: 0;
   padding: 38px 0 68px;
 }
@@ -2682,7 +2683,7 @@ p.footer-widget-text {
   line-height: 40px;
   color: #ffffff;
   font-weight: 400;
-  font-family: "Fira Sans";
+
   text-decoration: none;
   position: relative;
   z-index: 1;
@@ -2694,7 +2695,7 @@ p.footer-widget-text {
   content: "";
   height: 1px;
   width: 0;
-  background: #ff3c00;
+  background: var(--color-emergent-orange);
   bottom: 10px;
   transition: 0.5s;
 }
@@ -2709,7 +2710,7 @@ p.newsletter-text {
   line-height: 26px;
   color: #ffffff;
   font-weight: 400;
-  font-family: "Fira Sans";
+
   margin: 0;
   padding: 0 0 38px;
 }
@@ -2725,7 +2726,7 @@ p.newsletter-text {
   line-height: 26px;
   color: #7a7a7a;
   font-weight: 400;
-  font-family: "Fira Sans";
+
   padding: 0 21px 0;
 }
 
@@ -2734,7 +2735,6 @@ p.newsletter-text {
   line-height: 26px;
   color: #7a7a7a;
   font-weight: 400;
-  font-family: "Fira Sans";
 }
 
 .form-field2 button {
@@ -2744,7 +2744,7 @@ p.newsletter-text {
   width: 65px;
   height: 56px;
   border-radius: 0 10px 10px 0;
-  background-color: #ff3c00;
+  background-color: var(--color-electrifying-green);
   font-size: 22px;
   margin-left: -4px;
   position: relative;
@@ -2752,11 +2752,11 @@ p.newsletter-text {
 }
 
 .footer-widget-social a i:hover {
-  color: #ff3d00;
+  color: var(--color-emergent-orange);
 }
 
 .footer-widget.left ul li a:hover {
-  color: #ff3d00;
+  color: var(--color-emergent-orange);
 }
 
 .footer-widget.left ul li a:hover::before {
@@ -2764,17 +2764,16 @@ p.newsletter-text {
 }
 
 .row.copyright {
-  padding: 20px 15px;           /* espacio arriba/abajo y laterales */
+  padding: 20px 15px; /* espacio arriba/abajo y laterales */
   background: var(--color-emergent-orange);
   color: white;
-  font-family: "Fira Sans", sans-serif;
-  font-size: 15px;              /* tamaño cómodo de leer */
-  letter-spacing: 0.5px;        /* un poco de espacio entre letras */
+  font-size: 15px; /* tamaño cómodo de leer */
+  letter-spacing: 0.5px; /* un poco de espacio entre letras */
 }
 
 .copyright-text p {
-  opacity: 0.8;                 /* más opacidad para mejor contraste */
-  font-weight: 600;             /* más peso */
+  opacity: 0.8; /* más opacidad para mejor contraste */
+  font-weight: 600; /* más peso */
   margin: 0;
 }
 
@@ -2796,8 +2795,8 @@ p.newsletter-text {
   opacity: 0.8;
   font-size: 15px;
   line-height: 24px;
-  font-weight: 600;             /* más peso */
-  letter-spacing: 0.5px;        /* mismo espaciado para legibilidad */
+  font-weight: 600; /* más peso */
+  letter-spacing: 0.5px; /* mismo espaciado para legibilidad */
   color: #ffffff;
   text-decoration: none;
   margin-left: 20px;
@@ -2805,7 +2804,7 @@ p.newsletter-text {
 }
 
 .copyright-list ul li a:hover {
-  color: #ff3d00;
+  color: var(--color-emergent-orange);
 }
 
 /* En móviles, apilar y centrar */
@@ -2828,8 +2827,6 @@ p.newsletter-text {
 /*=====================================
 <--  end solutek footer-area Css -->
 =======================================*/
-
-
 
 /*=====================================
 <-- start solutek Home two Css -->
@@ -2953,7 +2950,7 @@ p.newsletter-text {
 }
 
 .xs-bg-black {
-  background-color: #ff3b00;
+  background-color: var(--color-emergent-orange);
 }
 
 /*html css*/
@@ -2962,7 +2959,7 @@ p.newsletter-text {
 }
 
 .nav-btn.navSidebar-button a {
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 .sidebar-info-contents .widget-search {
@@ -3012,7 +3009,7 @@ button.icon {
   top: 0;
   height: 56px;
   width: 60px;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   border-radius: 0 4px 4px 0;
 }
 
@@ -3069,8 +3066,8 @@ li.item1 {
   margin: 0px 6px 15px 0;
   border: 0;
   font-weight: 500;
-  color: #ff3b00;
-  border: 2px solid #ff3b00;
+  color: var(--color-emergent-orange);
+  border: 2px solid var(--color-emergent-orange);
   transition: 0.5s;
   border-radius: 30px;
   position: relative;
@@ -3085,7 +3082,7 @@ li.item1 {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   color: #fff;
   border: 2px solid #fff;
   border-radius: 30px;
@@ -3112,13 +3109,13 @@ li.item1 {
 }
 
 ul.list-style-one li a:hover span {
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   border-radius: 30px;
   color: #fff;
 }
 
 ul.list-style-one li a:hover {
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 .follow-company-icon {
@@ -3153,7 +3150,7 @@ ul.list-style-one li a:hover {
   top: 0;
   width: 0;
   height: 100%;
-  background-color: #ff3b00;
+  background-color: var(--color-emergent-orange);
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
@@ -3180,7 +3177,7 @@ ul.list-style-one li a:hover {
 }
 
 .solutek_nav_manu.style-two .solutek_menu > ul > li > a:hover {
-  color: #ff3c00 !important;
+  color: var(--color-emergent-orange) !important;
 }
 
 .solutek_nav_manu.style-two .header-menu-btn {
@@ -3193,7 +3190,7 @@ ul.list-style-one li a:hover {
 }
 
 .solutek_nav_manu.style-two .sidebar-button a {
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
   display: inline-block;
   background-color: rgb(255 59 0/7%);
   height: 45px;
@@ -3289,7 +3286,7 @@ ul.list-style-one li a:hover {
 <!-- =====================================-->*/
 .marquee-section {
   position: relative;
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   padding: 33px 0 33px;
   z-index: 1;
   margin: 0 50px;
@@ -3359,7 +3356,7 @@ ul.list-style-one li a:hover {
 }
 
 .content-box .title a:hover {
-  color: #050a1e;
+  color: var(--color-deep-blue);
 }
 
 .content-box .title a i {
@@ -3384,11 +3381,11 @@ ul.list-style-one li a:hover {
   background-size: cover;
   background-position: center center;
   border-radius: 35px 0 35px 35px;
-  padding: 32px 20px 56px;
+  padding: 40px;
   text-align: center;
   position: relative;
   transition: 0.5s;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .service-area.style-two .single-service-box::before {
@@ -3407,7 +3404,7 @@ ul.list-style-one li a:hover {
   content: "";
   width: 175px;
   height: 5px;
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   left: 66px;
   top: -5px;
   margin: 0 auto;
@@ -3432,22 +3429,10 @@ ul.list-style-one li a:hover {
 
 .service-area.style-two .service-title {
   font-size: 24px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
   position: relative;
   transition: 0.5s;
-}
-
-.service-area.style-two .service-title::before {
-  position: absolute;
-  content: "";
-  width: 340px;
-  height: 1px;
-  background: rgb(122 122 122 / 20%);
-  margin: 0 auto;
-  bottom: -22px;
-  left: 0;
-  right: 0;
 }
 
 .service-area.style-two .service-des {
@@ -3459,15 +3444,14 @@ ul.list-style-one li a:hover {
 }
 
 .service-area.style-two .service-icon {
-  margin-bottom: 0px;
   display: inline-block;
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
-  border-radius: 35px;
+  width: 95px;
+  height: 95px;
+  line-height: 90px;
+  border-radius: 54px;
   background-color: var(--color-deep-blue);
   position: absolute;
-  bottom: -34px;
+  bottom: -55px;
   left: 0;
   right: 0;
   margin: 0 auto 0;
@@ -3492,7 +3476,7 @@ ul.list-style-one li a:hover {
 }
 
 .service-area.style-two .single-service-box:hover .service-icon {
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
 }
 
 .service-area.style-two .single-service-box:hover .service-icon img {
@@ -3569,7 +3553,7 @@ ul.list-style-one li a:hover {
   font-size: 15px;
   line-height: 26px;
   text-transform: uppercase;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 400;
   border-bottom: 1px dashed rgb(122 122 122 / 40%);
   margin-bottom: 23px;
@@ -3622,13 +3606,12 @@ ul.list-style-one li a:hover {
   color: #7a7a7a;
   font-weight: 400;
   margin-bottom: 0;
-  font-family: "Fira Sans";
 }
 
 .about-area.style-two .about-contact-content p {
   font-size: 18px;
   text-transform: uppercase;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 500;
   margin: 0;
 }
@@ -3659,7 +3642,7 @@ ul.list-style-one li a:hover {
   content: "";
   height: 100%;
   width: 0;
-  background: #050a1e;
+  background: var(--color-deep-blue);
   left: 0;
   right: 0;
   transition: 0.5s;
@@ -3671,7 +3654,7 @@ ul.list-style-one li a:hover {
   content: "";
   width: 115px;
   height: 3px;
-  background-color: #050a1e;
+  background-color: var(--color-deep-blue);
   right: 0;
   top: -3px;
 }
@@ -3681,7 +3664,7 @@ ul.list-style-one li a:hover {
   content: "";
   width: 145px;
   height: 3px;
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   left: 46px;
   top: -3px;
 }
@@ -3698,7 +3681,7 @@ ul.list-style-one li a:hover {
 }
 
 .team-area.style-two .team-inner-title {
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   border-radius: 20px 0 20px 20px;
   padding: 30px 0;
   opacity: 0;
@@ -3773,7 +3756,7 @@ ul.list-style-one li a:hover {
 }
 
 .team-area.style-two .team-social-icon ul li a:hover {
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   text-decoration: underline;
 }
 
@@ -3840,7 +3823,7 @@ ul.list-style-one li a:hover {
   content: "";
   width: 175px;
   height: 3px;
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   left: 66px;
   top: -3px;
 }
@@ -3938,7 +3921,7 @@ ul.list-style-one li a:hover {
   border-radius: 100%;
   background-color: #161a2b;
   text-align: center;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-size: 32px;
   transform: rotate(-45deg);
 }
@@ -3972,7 +3955,7 @@ ul.list-style-one li a:hover {
 }
 
 .project-area.styl-two .project-single-box:hover .project-icon span {
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   color: #fff;
 }
 
@@ -3991,13 +3974,13 @@ ul.list-style-one li a:hover {
   display: inline-block;
   text-align: center;
   border-radius: 10px 0px 10px 10px;
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
   font-size: 22px;
   transition: 0.5s;
 }
 
 .project-area.styl-two .owl-prev:hover {
-  background-color: #ff3b00;
+  background-color: var(--color-emergent-orange);
   color: #fff;
 }
 
@@ -4005,7 +3988,7 @@ ul.list-style-one li a:hover {
   width: 55px;
   height: 55px;
   line-height: 55px;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   display: inline-block;
   text-align: center;
   border-radius: 10px 0px 10px 10px;
@@ -4015,7 +3998,7 @@ ul.list-style-one li a:hover {
 }
 
 .project-area.styl-two .owl-next:hover {
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   color: #fff;
 }
 
@@ -4024,7 +4007,6 @@ ul.list-style-one li a:hover {
   right: 228px;
   top: -118px;
 }
-
 
 /*
 <!-- ==========================================-->
@@ -4121,14 +4103,14 @@ ul.list-style-one li a:hover {
 .project-area.style-three .project-title {
   margin-top: 18px;
   font-size: 20px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
 }
 
 .project-area.style-three .project-title a {
   display: inline-block;
   font-size: 20px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
   text-decoration: none;
 }
@@ -4180,7 +4162,7 @@ ul.list-style-one li a:hover {
   content: "";
   width: 155px;
   height: 3px;
-  background-color: #050a1e;
+  background-color: var(--color-deep-blue);
   top: -3px;
   right: 0;
   z-index: 1;
@@ -4191,7 +4173,7 @@ ul.list-style-one li a:hover {
   content: "";
   width: 175px;
   height: 3px;
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   left: 86px;
   top: -3px;
   margin: 0 auto;
@@ -4221,10 +4203,10 @@ ul.list-style-one li a:hover {
   font-size: 15px;
   text-decoration: none;
   color: #fff;
-  background: #ff3d00;
+  background: var(--color-emergent-orange);
   padding: 7px 19px;
   border-radius: 20px;
-  font-family: "Fira Sans";
+
   font-weight: 400;
   transition: 0.5s;
 }
@@ -4242,12 +4224,11 @@ ul.list-style-one li a:hover {
   font-size: 15px;
   color: #7a7a7a;
   font-weight: 400;
-  font-family: "Fira Sans";
 }
 
 .blog-area.style-two .meta-blog span i {
   display: inline-block;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   width: 37px;
   height: 37px;
   line-height: 37px;
@@ -4278,9 +4259,9 @@ ul.list-style-one li a:hover {
   display: inline-block;
   font-size: 22px;
   line-height: 34px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
-  font-family: "Fira Sans";
+
   text-decoration: none;
   padding: 22px 0 34px;
   transition: 0.5s;
@@ -4290,9 +4271,9 @@ ul.list-style-one li a:hover {
   display: inline-block;
   font-size: 16px;
   text-transform: uppercase;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-weight: 500;
-  font-family: "Fira Sans";
+
   border-radius: 24px;
   background-color: #ffffff;
   padding: 8px 32px;
@@ -4306,11 +4287,11 @@ ul.list-style-one li a:hover {
 
 .blog-area.style-two .blog-meta-top a:hover {
   background: #fff;
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 .blog-area.style-two .single-blog-box:hover .blog-box-content a {
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 .blog-area.style-two .single-blog-box:hover .single-blog-thumb img {
@@ -4331,7 +4312,6 @@ ul.list-style-one li a:hover {
 }
 
 /* <!--solutek home page three Css--> */
-
 
 /*---=====================================================
    <!--solutek top header area Css-->
@@ -4389,7 +4369,7 @@ ul.list-style-one li a:hover {
   width: 28px;
   height: 28px;
   line-height: 28px;
-  border-radius: 3px; 
+  border-radius: 3px;
   text-align: center;
   transition: 0.3s;
 }
@@ -4398,7 +4378,6 @@ ul.list-style-one li a:hover {
   background-color: var(--color-emergent-orange);
   color: var(--color-snow-white);
 }
-
 
 /*solutek home page 03 css 
   -----------------------*/
@@ -4417,7 +4396,7 @@ ul.list-style-one li a:hover {
 }
 
 .solutek_nav_manu.style-three .solutek_menu > ul > li > a:hover {
-  color: #ff3c00 !important;
+  color: var(--color-emergent-orange) !important;
 }
 
 .solutek_nav_manu.style-three .header-menu-btn {
@@ -4430,7 +4409,7 @@ ul.list-style-one li a:hover {
 }
 
 .solutek_nav_manu.style-three .sidebar-button a {
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
   display: inline-block;
   background-color: rgb(255 59 0/7%);
   height: 45px;
@@ -4468,7 +4447,7 @@ ul.list-style-one li a:hover {
 .hero-area.style-three .hero-contant h6 {
   font-size: 16px;
   line-height: 42px;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-weight: 600;
   margin-left: 58px;
   position: relative;
@@ -4482,7 +4461,7 @@ ul.list-style-one li a:hover {
   width: 18px;
   height: 6px;
   border-radius: 3px;
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   top: 20px;
   left: -57px;
 }
@@ -4493,7 +4472,7 @@ ul.list-style-one li a:hover {
   width: 25px;
   height: 6px;
   border-radius: 3px;
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   top: 20px;
   left: -33px;
 }
@@ -4511,7 +4490,7 @@ ul.list-style-one li a:hover {
   display: inline-block;
   font-size: 65px;
   line-height: 80px;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-weight: 700;
   margin-right: 10px;
 }
@@ -4535,7 +4514,7 @@ ul.list-style-one li a:hover {
 }
 
 .hero-area.style-three .hero-btn-profile img {
-  border: 2px solid #ff3c00;
+  border: 2px solid var(--color-emergent-orange);
   border-radius: 100%;
   margin-right: 5px;
 }
@@ -4555,7 +4534,7 @@ ul.list-style-one li a:hover {
   font-size: 15px !important;
   text-decoration: underline;
   text-transform: uppercase;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-weight: 700;
   margin-right: 5px;
 }
@@ -4591,13 +4570,13 @@ ul.list-style-one li a:hover {
   transform: rotate(180deg);
   margin: 0;
   font-weight: 400;
-  font-family: "Fira Sans";
+
   position: absolute;
   top: 190px;
   left: 55px;
 }
 
-.hero-active .owl-next{
+.hero-active .owl-next {
   font-size: 16px;
   line-height: 28px;
   color: #f4f4f4;
@@ -4606,11 +4585,10 @@ ul.list-style-one li a:hover {
   transform: rotate(180deg);
   margin: 0;
   font-weight: 400;
-  font-family: "Fira Sans";
+
   position: absolute;
   bottom: 190px;
   left: 55px;
-
 }
 
 .hero-active {
@@ -4619,20 +4597,28 @@ ul.list-style-one li a:hover {
 
 .hero-active .owl-prev::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 2px;
   height: 166px;
-  background-image: linear-gradient(0deg, #ff3b00 0%, #05091d 100%);
+  background-image: linear-gradient(
+    0deg,
+    var(--color-emergent-orange) 0%,
+    #05091d 100%
+  );
   left: 13px;
   bottom: 200px;
 }
 
 .hero-active .owl-prev::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 2px;
   height: 166px;
-  background-image: linear-gradient(0deg, #05091d 0%, #ff3b00 100%);
+  background-image: linear-gradient(
+    0deg,
+    #05091d 0%,
+    var(--color-emergent-orange) 100%
+  );
   left: 13px;
   bottom: 36px;
 }
@@ -4648,7 +4634,7 @@ ul.list-style-one li a:hover {
   background-size: cover;
 }
 
-.our-service-section .service-box{
+.our-service-section .service-box {
   position: relative;
 }
 .our-service-section .single-service-box {
@@ -4668,20 +4654,20 @@ ul.list-style-one li a:hover {
   height: 75px;
   line-height: 75px;
   border-radius: 50%;
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   text-align: center;
 }
 
 .our-service-section h4.service-title {
   font-size: 24px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
   transition: 0.5s;
   position: relative;
 }
 
 .our-service-section h4.service-title:hover {
-  color:#ff3c00
+  color: var(--color-emergent-orange);
 }
 
 .our-service-section h4.service-title::before {
@@ -4689,7 +4675,11 @@ ul.list-style-one li a:hover {
   content: "";
   width: 80px;
   height: 2px;
-  background-image: linear-gradient(270deg, #ffffff 0%, #ff3b00 100%);
+  background-image: linear-gradient(
+    270deg,
+    #ffffff 0%,
+    var(--color-emergent-orange) 100%
+  );
   left: 0;
   bottom: -5px;
 }
@@ -4744,10 +4734,14 @@ ul.list-style-one li a:hover {
 
 .about-section .about-item-list ul li::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 45px;
   height: 2px;
-  background-image: linear-gradient(270deg, #ffffff 0%, #ff3b00 100%);
+  background-image: linear-gradient(
+    270deg,
+    #ffffff 0%,
+    var(--color-emergent-orange) 100%
+  );
   left: -53px;
   top: 12px;
 }
@@ -4776,7 +4770,7 @@ ul.list-style-one li a:hover {
 
 .counter-area .counter-single-box::before {
   position: absolute;
-  content: '';
+  content: "";
   opacity: 0.302;
   width: 2px;
   height: 90px;
@@ -4785,7 +4779,8 @@ ul.list-style-one li a:hover {
   right: -16px;
 }
 
-.counter-area .counter-content h4, .counter-content span {
+.counter-area .counter-content h4,
+.counter-content span {
   display: inline-block;
   font-size: 40px;
   line-height: 28px;
@@ -4818,7 +4813,7 @@ ul.list-style-one li a:hover {
    <!-- start solutek case studies area -->
 =========================================================---*/
 .case-studies-area {
-  background-color: #050a1e;
+  background-color: var(--color-deep-blue);
   padding: 110px 0 65px;
 }
 
@@ -4826,7 +4821,7 @@ ul.list-style-one li a:hover {
   border-radius: 25px;
   padding: 34px 80px;
   margin-bottom: 25px;
-  background: linear-gradient(to bottom, #161A2B, #131729, #05091D);
+  background: linear-gradient(to bottom, #161a2b, #131729, #05091d);
 }
 
 .case-studies-content h4 a {
@@ -4852,9 +4847,9 @@ ul.list-style-one li a:hover {
   font-size: 17px;
   line-height: 28px;
   text-transform: uppercase;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-weight: 400;
-  font-family: "Fira Sans";
+
   margin-left: 60px;
   position: relative;
   padding-bottom: 163px;
@@ -4865,7 +4860,11 @@ ul.list-style-one li a:hover {
   content: "";
   width: 50px;
   height: 2px;
-  background-image: linear-gradient(270deg, #15192b 0%, #ff3b00 100%);
+  background-image: linear-gradient(
+    270deg,
+    #15192b 0%,
+    var(--color-emergent-orange) 100%
+  );
   left: -60px;
   top: 12px;
 }
@@ -4881,16 +4880,16 @@ ul.list-style-one li a:hover {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 500;
-  font-family: "Fira Sans";
+
   border-radius: 29px;
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   padding: 13px 40px;
   transition: 0.5s;
 }
 
-.case-studies-btn a:hover{
+.case-studies-btn a:hover {
   background: #fff;
-  color:#ff3c00;
+  color: var(--color-emergent-orange);
 }
 
 .case-studies-single-box {
@@ -4910,7 +4909,11 @@ ul.list-style-one li a:hover {
   content: "";
   width: 0;
   height: 100%;
-  background-image: linear-gradient(180deg, rgba(255,60,0,0) 37%, rgba(255,60,0,0.9999999999999999) 100%);
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 60, 0, 0) 37%,
+    rgba(255, 60, 0, 0.9999999999999999) 100%
+  );
   bottom: 0;
   right: 0;
   transition: 0.5s;
@@ -4934,9 +4937,9 @@ ul.list-style-one li a:hover {
   font-size: 17px;
   line-height: 28px;
   text-transform: uppercase;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-weight: 400;
-  font-family: "Fira Sans";
+
   margin-left: 60px;
   position: relative;
   z-index: 1;
@@ -4945,10 +4948,14 @@ ul.list-style-one li a:hover {
 
 .case-studie-content h6::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 50px;
   height: 2px;
-  background-image: linear-gradient(270deg, #05091d 0%, #ff3b00 100%);
+  background-image: linear-gradient(
+    270deg,
+    #05091d 0%,
+    var(--color-emergent-orange) 100%
+  );
   left: -62px;
   top: 12px;
 }
@@ -4958,7 +4965,7 @@ ul.list-style-one li a:hover {
   height: 55px;
   line-height: 55px;
   border-radius: 28px;
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   text-align: center;
   transition: 0.5s;
   float: right;
@@ -4972,23 +4979,26 @@ ul.list-style-one li a:hover {
 }
 
 /* all hover case studies */
-.case-studies-single-box:hover .case-studies-thumb::before{
+.case-studies-single-box:hover .case-studies-thumb::before {
   width: 100%;
   left: 0;
 }
 
-.case-studies-single-box:hover .case-studie-content h6{
-  color:#fff;
+.case-studies-single-box:hover .case-studie-content h6 {
+  color: #fff;
 }
 
-.case-studies-single-box:hover .case-studie-content h6::before{
-  background-image: linear-gradient(270deg, #ff3b00 0%, #ffffff 100%);
+.case-studies-single-box:hover .case-studie-content h6::before {
+  background-image: linear-gradient(
+    270deg,
+    var(--color-emergent-orange) 0%,
+    #ffffff 100%
+  );
 }
 
-.case-studies-single-box:hover .case-studies-icon{
-  background: #050a1e;
+.case-studies-single-box:hover .case-studies-icon {
+  background: var(--color-deep-blue);
 }
-
 
 /*---=====================================================
    <!--start solutek working proces area -->
@@ -5050,7 +5060,7 @@ ul.list-style-one li a:hover {
   height: 240px;
   left: 36px;
   top: -13px;
-  border: 2px dashed #ff3c00;
+  border: 2px dashed var(--color-emergent-orange);
   border-radius: 50%;
   animation: rotateme 20s linear infinite;
 }
@@ -5068,17 +5078,17 @@ ul.list-style-one li a:hover {
   display: inline-block;
   font-size: 22px;
   color: #fff;
-  background-color: #ff3c00;
-  transition: .5s;
+  background-color: var(--color-emergent-orange);
+  transition: 0.5s;
   text-align: center;
 }
 
 .process-content h4 {
   margin: 20px 0 10px;
-  transition: .5s;
+  transition: 0.5s;
   font-size: 20px;
   line-height: 36px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
 }
 
@@ -5091,7 +5101,8 @@ ul.list-style-one li a:hover {
   transition: 0.5s;
 }
 
-.working-process-bottom p, .working-process-bottom p span {
+.working-process-bottom p,
+.working-process-bottom p span {
   font-size: 17px;
   line-height: 50px;
   color: #7a7a7a;
@@ -5101,8 +5112,8 @@ ul.list-style-one li a:hover {
   padding-top: 28px;
 }
 
-.working-process-bottom p span{
-  color:#ff3c00;
+.working-process-bottom p span {
+  color: var(--color-emergent-orange);
 }
 
 /*---=====================================================
@@ -5135,7 +5146,7 @@ ul.list-style-one li a:hover {
 }
 
 .faq-area.style-two ul.accordion a.active span {
-  color: #ff3c00 !important;
+  color: var(--color-emergent-orange) !important;
 }
 
 .faq-area.style-two .accordion li p {
@@ -5172,7 +5183,6 @@ ul.list-style-one li a:hover {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 600;
-  font-family: "Fira Sans";
 }
 
 ul.breadcumb-list {
@@ -5189,9 +5199,8 @@ ul.breadcumb-list {
   font-size: 16px;
   line-height: 26px;
   text-transform: uppercase;
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
   font-weight: 500;
-  font-family: "Fira Sans";
 }
 
 li.list-arrow {
@@ -5205,10 +5214,9 @@ li.list-arrow {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 500;
-  font-family: "Fira Sans";
+
   cursor: pointer;
 }
-
 
 /* <!--==================================================-- */
 /* <!--start solutek about us Area -- */
@@ -5242,7 +5250,7 @@ li.list-arrow {
   content: "";
   width: 11px;
   height: 11px;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   left: 0;
   top: 5px;
   border-radius: 50%;
@@ -5252,9 +5260,9 @@ li.list-arrow {
   display: inline-block;
   font-size: 18px;
   line-height: 26px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 400;
-  font-family: "Fira Sans";
+
   margin-left: 30px;
 }
 
@@ -5280,7 +5288,7 @@ li.list-arrow {
   display: inline-block;
   font-size: 40px;
   line-height: 26px;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-weight: 600;
 }
 
@@ -5314,7 +5322,7 @@ li.list-arrow {
   display: inline-block;
   color: #fff;
   font-size: 30px;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   border-radius: 50%;
   padding: 10px;
 }
@@ -5324,7 +5332,7 @@ li.list-arrow {
   content: "";
   width: 75px;
   height: 75px;
-  background: #050a1e;
+  background: var(--color-deep-blue);
   line-height: 75px;
   text-align: center;
   border-radius: 50%;
@@ -5337,7 +5345,7 @@ li.list-arrow {
   display: inline-block;
   font-size: 15px;
   text-decoration: underline;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   padding-left: 30px;
 }
 
@@ -5410,7 +5418,7 @@ li.list-arrow {
   height: 65px;
   line-height: 65px;
   border-radius: 33px;
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   text-align: center;
   position: absolute;
   left: 31px;
@@ -5424,7 +5432,7 @@ li.list-arrow {
 
 .sservice-area.style-two h3.service-title {
   font-size: 22px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
   font-family: "Poppins";
   margin: 0;
@@ -5444,7 +5452,7 @@ li.list-arrow {
 
 .sservice-area.style-two .service-btn i {
   display: inline-block;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   background: #f4f4f4;
   width: 35px;
   height: 35px;
@@ -5472,15 +5480,15 @@ li.list-arrow {
 
 /* all hover */
 .sservice-area.style-two .single-service-box:hover h3.service-title {
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 .sservice-area.style-two .single-service-box:hover .service-btn a {
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 .sservice-area.style-two .single-service-box:hover .service-btn i {
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   color: #fff;
 }
 
@@ -5517,7 +5525,7 @@ li.list-arrow {
   content: "";
   height: 100%;
   width: 0;
-  background: #050a1e;
+  background: var(--color-deep-blue);
   left: 0;
   right: 0;
   transition: 0.5s;
@@ -5541,7 +5549,7 @@ li.list-arrow {
   content: "";
   width: 115px;
   height: 3px;
-  background-color: #050a1e;
+  background-color: var(--color-deep-blue);
   right: 0;
   top: -3px;
 }
@@ -5551,7 +5559,7 @@ li.list-arrow {
   content: "";
   width: 145px;
   height: 3px;
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   left: 46px;
   top: -3px;
 }
@@ -5571,7 +5579,7 @@ li.list-arrow {
 }
 
 .team-area.style-inner .team-inner-title {
-  background-color: #ff3c00;
+  background-color: var(--color-emergent-orange);
   border-radius: 20px 0 20px 20px;
   padding: 30px 0;
   transition: 0.5s;
@@ -5622,7 +5630,7 @@ li.list-arrow {
   font-weight: 500;
   font-family: "Poppins";
   text-transform: uppercase;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   transition: 0.5s;
 }
 
@@ -5673,8 +5681,8 @@ li.list-arrow {
 
 .team-details-area .contact-info-icon i {
   display: inline-block;
-  color: #ff3b00;
-  border: 2px solid #ff3b00;
+  color: var(--color-emergent-orange);
+  border: 2px solid var(--color-emergent-orange);
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -5693,7 +5701,7 @@ li.list-arrow {
 
 .team-details-area .contact-info-content p {
   font-size: 26px;
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
   font-weight: 600;
   margin: 0;
   padding: 0;
@@ -5722,7 +5730,7 @@ li.list-arrow {
 }
 
 .team-details-area .team-details-social-icon ul li i:hover {
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   color: #fff;
 }
 
@@ -5777,7 +5785,6 @@ li.list-arrow {
   line-height: 26px;
   color: #7a7a7a;
   font-weight: 400;
-  font-family: "Fira Sans";
 }
 
 .team-details-area .form_box textarea {
@@ -5797,7 +5804,6 @@ li.list-arrow {
   line-height: 26px;
   color: #7a7a7a;
   font-weight: 400;
-  font-family: "Fira Sans";
 }
 
 /*---=====================================================
@@ -5830,7 +5836,7 @@ li.list-arrow {
 .skill-bar {
   width: 74% !important;
   height: 7px;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   display: block;
   position: relative;
   border-radius: 100px;
@@ -5847,7 +5853,7 @@ li.list-arrow {
   font-size: 18px;
   padding: 3px 0;
   font-weight: 500;
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 .skill-bar {
@@ -5892,7 +5898,7 @@ li.list-arrow {
 .skill-bar {
   width: 74% !important;
   height: 7px;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   display: block;
   position: relative;
   border-radius: 100px;
@@ -5909,7 +5915,7 @@ li.list-arrow {
   font-size: 18px;
   padding: 3px 0;
   font-weight: 500;
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 .skill-bar {
@@ -5943,7 +5949,7 @@ li.list-arrow {
 h4.services-details-title {
   margin-bottom: 10px;
   font-size: 28px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 700;
 }
 
@@ -5955,7 +5961,7 @@ p.services-details-desc {
 
 .service-details-content h4 {
   font-size: 24px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
 }
 
@@ -5972,12 +5978,12 @@ p.services-details-desc {
   list-style: none;
   font-size: 20px;
   line-height: 46px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 500;
 }
 
 .service-details-list li i {
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
   margin-right: 12px;
 }
 
@@ -5992,7 +5998,7 @@ p.services-details-desc {
 .service-det-content h3 {
   font-size: 24px;
   line-height: 48px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
   margin: 40px 0 15px;
 }
@@ -6013,7 +6019,7 @@ p.services-details-desc {
   cursor: pointer;
   z-index: 1;
   font-size: 18px;
-  color: #ff3b00 !important;
+  color: var(--color-emergent-orange) !important;
   font-weight: 500;
   background: transparent;
   border: 2px solid #fff;
@@ -6025,7 +6031,7 @@ p.services-details-desc {
   position: relative;
   z-index: 1;
   font-size: 18px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 500;
   font-family: "Poppins";
   font-size: 18px;
@@ -6036,12 +6042,12 @@ p.services-details-desc {
 
 .services-details-area ul.accordion a.active {
   color: #fff !important;
-  background: #050a1e !important;
+  background: var(--color-deep-blue) !important;
 }
 
 .services-details-area ul.accordion a.active span {
   color: #fff !important;
-  background: #050a1e !important;
+  background: var(--color-deep-blue) !important;
 }
 
 .services-details-area .accordion li p {
@@ -6074,7 +6080,7 @@ p.services-details-desc {
   height: 2px;
   left: 0;
   bottom: -8px;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
 }
 
 .widget-category ul li img {
@@ -6116,7 +6122,7 @@ p.services-details-desc {
   height: 100%;
   left: 50%;
   top: 0;
-  background: #ff3c00;
+  background: var(--color-emergent-orange);
   z-index: -1;
   border-radius: 5px;
   transition: 0.5s;
@@ -6153,7 +6159,7 @@ p.services-details-desc {
 }
 
 .widget-sidber-download-button a.active {
-  background: #ff3b00 !important;
+  background: var(--color-emergent-orange) !important;
 }
 
 .widget-sidber-download-button i {
@@ -6215,7 +6221,7 @@ span.widget-sidber-contact-gmail {
 span.widget-sidber-contact-gmail i {
   display: inline-block;
   font-size: 17px;
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
   position: relative;
   top: 2px;
   margin-right: 6px;
@@ -6227,17 +6233,17 @@ span.widget-sidber-contact-gmail i {
   color: #ffffff;
   font-weight: 400;
   text-decoration: none;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   padding: 16px 98px 15px;
   border-radius: 5px;
   margin-top: 55px;
   transition: 0.5s;
-  border: 2px solid #ff3b00;
+  border: 2px solid var(--color-emergent-orange);
 }
 
 .widget-sidber-contact-btn a:hover {
   background: transparent;
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 .widget-sidber-contact-btn a i {
@@ -6296,18 +6302,18 @@ button.icons {
   display: inline-block;
   font-size: 18px;
   line-height: 24px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
 }
 
 .sidber-widget-recent-post:hover .recent-widget-content a {
-  color: #ff3b00 !important;
+  color: var(--color-emergent-orange) !important;
 }
 
 .recent-widget-content p {
   font-size: 14px;
   margin: 0;
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 /* widget tag */
@@ -6330,7 +6336,7 @@ button.icons {
   height: 100%;
   left: 50%;
   top: 0;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   transition: 0.5s;
   z-index: -1;
 }
@@ -6392,7 +6398,7 @@ button.icons {
 .case_study_menu ul li::before {
   animation: opacityFallbackOut 0.5s step-end forwards;
   backface-visibility: hidden;
-  background-color: #ff3b00;
+  background-color: var(--color-emergent-orange);
   clip-path: polygon(-1% 0, 0 0, -25% 104%, -1% 100%);
   content: "";
   height: 100%;
@@ -6417,7 +6423,7 @@ button.icons {
 
 li.current_menu_item {
   color: #fff !important;
-  background: #ff3b00 !important;
+  background: var(--color-emergent-orange) !important;
 }
 
 .case-study-single-box {
@@ -6450,7 +6456,7 @@ li.current_menu_item {
 .case-study-title h5 {
   font-size: 16px;
   line-height: 26px;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   font-weight: 400;
   margin: 0;
 }
@@ -6469,7 +6475,7 @@ li.current_menu_item {
 }
 
 .case-study-title h3 a:hover {
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 .case-study-icon {
@@ -6477,13 +6483,13 @@ li.current_menu_item {
   height: 55px;
   line-height: 55px;
   border-radius: 28px;
-  background-color: #050a1e;
+  background-color: var(--color-deep-blue);
   text-align: center;
   transition: 0.5s;
 }
 
 .case-study-content:hover .case-study-icon {
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
 }
 
 .case-study-icon i {
@@ -6519,9 +6525,9 @@ li.current_menu_item {
 .project-details-box h6 {
   font-size: 24px;
   line-height: 46px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
-  font-family: 'Fira Sans';
+  font-family: "Fira Sans";
 }
 
 .project-details-box {
@@ -6531,7 +6537,7 @@ li.current_menu_item {
 
 .project-details-content h4 {
   font-size: 30px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
 }
 
@@ -6559,7 +6565,7 @@ p.project-details-desc {
 
 .project-details-list-item ul li i {
   display: inline-block;
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
   font-size: 19px;
   margin-right: 11px;
   position: relative;
@@ -6570,7 +6576,7 @@ a.project-details-text {
   display: inline-block;
   font-size: 28px;
   line-height: 38px;
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
   font-weight: 700;
   margin-top: 50px;
   margin-bottom: 19px;
@@ -6599,12 +6605,12 @@ a.project-details-text {
   overflow: hidden;
 }
 
-.blog-area.style-grid  .single-blog-thumb img {
+.blog-area.style-grid .single-blog-thumb img {
   width: 100%;
   transition: 0.5s;
 }
 
-.blog-area.style-grid  .blog-box-content {
+.blog-area.style-grid .blog-box-content {
   padding: 25px 20px 5px 10px;
 }
 
@@ -6613,12 +6619,11 @@ a.project-details-text {
   font-size: 15px;
   color: #7a7a7a;
   font-weight: 400;
-  font-family: "Fira Sans";
 }
 
 .blog-area.style-grid .meta-blog span i {
   display: inline-block;
-  color: #ff3c00;
+  color: var(--color-emergent-orange);
   margin-right: 15px;
 }
 
@@ -6641,9 +6646,9 @@ a.project-details-text {
   display: inline-block;
   font-size: 22px;
   line-height: 34px;
-  color: #050a1e;
+  color: var(--color-deep-blue);
   font-weight: 600;
-  font-family: "Fira Sans";
+
   text-decoration: none;
   padding: 22px 0 34px;
   transition: 0.5s;
@@ -6653,8 +6658,8 @@ a.project-details-text {
   display: inline-block;
   font-size: 17px;
   text-transform: uppercase;
-  color: #050a1e;
-  font-family: "Fira Sans";
+  color: var(--color-deep-blue);
+
   border-radius: 22px;
   padding: 10px 30px;
   position: relative;
@@ -6672,7 +6677,7 @@ a.project-details-text {
   content: "";
   height: 100%;
   width: 100%;
-  background: #ff3d00;
+  background: var(--color-emergent-orange);
   left: 0;
   top: 0;
   border-radius: 20px;
@@ -6682,15 +6687,15 @@ a.project-details-text {
 }
 
 /* all hover grid */
-.blog-area.style-grid .blog-box-content h3 a:hover{
-  color:#ff3b00;
+.blog-area.style-grid .blog-box-content h3 a:hover {
+  color: var(--color-emergent-orange);
 }
 
-.blog-area.style-grid .blog-button:hover a{
-  color:#fff;
+.blog-area.style-grid .blog-button:hover a {
+  color: #fff;
 }
 
-.blog-area.style-grid .blog-button a:hover::before{
+.blog-area.style-grid .blog-button a:hover::before {
   transform: scale(1);
 }
 
@@ -6741,12 +6746,12 @@ a.project-details-text {
   height: 2px;
   left: 5px;
   top: 11px;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
 }
 
 .blog-details-area .meta-blog i {
   display: inline-block;
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
   padding-right: 9px;
 }
 
@@ -6807,7 +6812,7 @@ p.blog-details-desc {
   height: 2px;
   left: -58px;
   top: 12px;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
 }
 
 h3.blog-details-title {
@@ -6834,7 +6839,7 @@ p.blog-details-desc.two {
 
 .blog-details-list-item ul li i {
   display: inline-block;
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
   font-size: 18px;
   margin-right: 16px;
 }
@@ -6867,12 +6872,12 @@ p.blog-details-desc.three {
 }
 
 .blog-details-category span a:hover {
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   color: #fff;
 }
 
 .blog-details-category span a.active-class {
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   color: #fff;
 }
 
@@ -6886,7 +6891,7 @@ p.blog-details-desc.three {
 
 .blog-details-social-icon ul li i {
   display: inline-block;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   color: #fff;
   width: 30px;
   height: 30px;
@@ -6902,7 +6907,7 @@ p.blog-details-desc.three {
 }
 
 .blog-details-social-icon ul li:nth-child(3) i {
-  background: #050a1e;
+  background: var(--color-deep-blue);
 }
 
 .blog-details-social-icon ul li:nth-child(4) i {
@@ -6963,7 +6968,7 @@ p.blog-details-desc.three {
 }
 
 .blog-details-comment-reply a {
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   padding: 3px 20px;
   font-size: 14px;
   font-weight: 600;
@@ -7011,7 +7016,7 @@ p.blog-details-desc.three {
 }
 
 .blog-details-submi-button button {
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
   color: #fff;
   text-transform: uppercase;
   border: transparent;
@@ -7021,13 +7026,13 @@ p.blog-details-desc.three {
   position: relative;
   z-index: 1;
   transition: 0.5s;
-  border: 2px solid #ff3b00;
+  border: 2px solid var(--color-emergent-orange);
   border-radius: 5px;
   font-weight: 500;
 }
 
 .blog-details-submi-button button:hover {
-  color: #ff3b00;
+  color: var(--color-emergent-orange);
 }
 
 .blog-details-submi-button button:before {
@@ -7056,13 +7061,6 @@ p.blog-details-desc.three {
   height: 600px;
 }
 
-
-
-
-
-
-
-
 /*---start-curser---*/
 .curser {
   position: fixed;
@@ -7070,7 +7068,7 @@ p.blog-details-desc.three {
   left: 0;
   width: 50px;
   height: 50px;
-  border: 1px solid #ff3d00;
+  border: 1px solid var(--color-emergent-orange);
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
@@ -7084,7 +7082,7 @@ p.blog-details-desc.three {
   left: 0;
   width: 8px;
   height: 8px;
-  background: #ff3d00;
+  background: var(--color-emergent-orange);
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
@@ -7210,7 +7208,7 @@ p.blog-details-desc.three {
   color: #fff;
   top: 3px;
   z-index: 1;
-  background: #ff3b00;
+  background: var(--color-emergent-orange);
 }
 
 .top-wrap .go-top-button i {
@@ -7872,4 +7870,14 @@ p.blog-details-desc.three {
     -webkit-transform: translateX(-50px);
     transform: translateX(-50px);
   }
+}
+
+.background-div {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+  background-color: var(--color-deep-blue-dark);
+  z-index: 0;
 }

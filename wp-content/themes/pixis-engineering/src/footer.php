@@ -39,7 +39,9 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="footer-widget">
                     <div class="footer-logo">
-                        <a href="index.html"><img src="	<?php echo get_template_directory_uri(); ?>/assets/images/logo-pixies-blanco.png" width="200px" alt="logo-sticky"></a>
+                        <a href="<?php echo esc_url(home_url('/')); ?>" title="Inicio - Pixies">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pixies-logo-white-sticky.webp" width="200" alt="Logo blanco de Pixies en el pie de página" loading="lazy">
+                        </a>
                     </div>
                     <p class="footer-widget-text">Lorem ipsum dolor sit amet, Lorem
                         ipsum dolor sit amet, consectetuer

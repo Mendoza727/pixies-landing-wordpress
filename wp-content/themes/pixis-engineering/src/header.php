@@ -34,11 +34,11 @@
         <div class="row d-flex align-items-center">
             <div class="col-lg-2">
                 <div class="logo">
-                    <a class="logo_img" href="index.html" title="solutek">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-pixies.png" width="150px" walt="logo-header" loading="lazy">
+                    <a class="logo_img" href="<?php echo esc_url(home_url('/')); ?>" title="Inicio - Pixies">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pixies-logo-main.webp" width="150" alt="Logo oficial de Pixies a color" loading="lazy">
                     </a>
-                    <a class="main_sticky" href="index.html" title="solutek">
-                        <img src="	<?php echo get_template_directory_uri(); ?>/assets/images/Logo-pixies-blanco.png" width="150px" alt="logo-sticky" loading="lazy">
+                    <a class="main_sticky" href="<?php echo esc_url(home_url('/')); ?>" title="Inicio - Pixies">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pixies-logo-white-sticky.webp" width="150" alt="Logo blanco de Pixies para navegación sticky" loading="lazy">
                     </a>
                 </div>
             </div>

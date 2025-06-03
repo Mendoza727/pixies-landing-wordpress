@@ -12,23 +12,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="section-title text-left">
-                        <h5 class="section-sub-title">OUR LATEST BLOG</h5>
-                        <h1 class="section-main-title">Exploring Its Potential in</h1>
-                        <h1 class="section-main-title">Various <span>Industries.</span></h1>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="project-right">
-                        <div class="solutek-btn">
-                            <a href="<?php echo esc_url(home_url('/?all_posts=1')); ?>">
-                                VIEW all posts
-                                <div class="solutek-hover-btn hover-bx"></div>
-                                <div class="solutek-hover-btn hover-bx2"></div>
-                                <div class="solutek-hover-btn hover-bx3"></div>
-                                <div class="solutek-hover-btn hover-bx4"></div>
-                            </a>
-
-                        </div>
+                        <h5 class="section-sub-title">Ultimos Blogss</h5>
                     </div>
                 </div>
             </div>

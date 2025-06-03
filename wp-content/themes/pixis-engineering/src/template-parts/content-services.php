@@ -8,8 +8,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-4 col-xl-3 col-md-6">
 					<div class="single-service-box">
 						<div class="service-box-inner">
 							<div class="service-content">
@@ -20,12 +20,12 @@
 								</p>
 							</div>
 							<div class="service-icon">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-system-electrics.webp" width="40px" height="40px" alt="icon" loading="lazy">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-system-electrics.webp" alt="icon" loading="lazy">
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-4 col-xl-3 col-md-6">
 					<div class="single-service-box">
 						<div class="service-box-inner">
 							<div class="service-content">
@@ -36,12 +36,12 @@
 								</p>
 							</div>
 							<div class="service-icon">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-security-tecnology.webp" width="40px" height="40px" alt="icon" loading="lazy">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-security-tecnology.webp" alt="icon" loading="lazy">
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-4 col-xl-3 col-md-6">
 					<div class="single-service-box">
 						<div class="service-box-inner">
 							<div class="service-content">
@@ -52,12 +52,12 @@
 								</p>
 							</div>
 							<div class="service-icon">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-manage-civils.webp" width="40px" height="40px" alt="icon" loading="lazy">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-manage-civils.webp" alt="icon" loading="lazy">
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-4 col-xl-3 col-md-6">
 					<div class="single-service-box">
 						<div class="service-box-inner">
 							<div class="service-content">
@@ -68,7 +68,7 @@
 								</p>
 							</div>
 							<div class="service-icon">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons-gestion.webp" width="40px" height="40px" alt="icon" loading="lazy">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons-gestion.webp" alt="icon" loading="lazy">
 							</div>
 						</div>
 					</div>
