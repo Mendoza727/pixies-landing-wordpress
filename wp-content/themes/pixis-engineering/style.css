@@ -635,6 +635,15 @@ h5.section-sub-title {
   line-height: 25px;
 }
 
+#last-blogs {
+  color: var(--color-electrifying-green)!important;
+  border: 2px solid var(--color-snow-white)!important;
+}
+
+#last-blogs::before {
+  background: var(--color-snow-white)!important;
+}
+
 h5.section-sub-title::before {
   position: absolute;
   content: "";
@@ -1218,7 +1227,8 @@ h3.blog-title-two a:hover {
 .about-thumb {
   position: relative;
   z-index: 1;
-  margin-left: -96px;
+  display: flex;
+  justify-content: center;
 }
 
 h4.about-title {
@@ -4546,7 +4556,7 @@ ul.list-style-one li a:hover {
 
 .hero-area.style-three .hero-thumb-shape {
   position: absolute;
-  top: 10px;
+  top: 12px;
 }
 
 .hero-area.style-three .hero-left-shape {

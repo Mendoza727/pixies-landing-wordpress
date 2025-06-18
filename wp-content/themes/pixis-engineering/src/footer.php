@@ -5,7 +5,7 @@
             <div class="col-lg-6 col-md-12">
                 <div class="address-box">
                     <div class="address-icon">
-                        <img src="http://localhost/template/solutek-demo/assets/images/address1.png" alt="address1">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/address1.webp" alt="address1">
                     </div>
                     <div class="address-title">
                         <h4 class="text-light">Lorem ipsum dolor sit.</h4>
@@ -15,7 +15,7 @@
             <div class="col-lg-6 col-md-12">
                 <div class="address-box2">
                     <div class="address-icon">
-                        <img src="	http://localhost/template/solutek-demo/assets/images/address2.png" alt="address1">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/address2.webp" alt="address2">
                     </div>
                     <div class="solutek-btn">
                         <!-- agregamo la funcionalidad que pusimos en el function -->
@@ -62,10 +62,10 @@
                         <h2>Useful Links</h2>
                     </div>
                     <ul>
-                        <li><a href="about-us.html">Nuestros servicios</a></li>
-                        <li><a href="team.html">Proeyctos destacados</a></li>
-                        <li><a href="blog-grid.html">Sobre nosotros</a></li>
-                        <li><a href="contact.html">blog</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>nuestros-servicios">Nuestros servicios</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>proyectos-destacados">Proeyctos destacados</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>nosotros">Sobre nosotros</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>blog">blog</a></li>
                     </ul>
                 </div>
             </div>

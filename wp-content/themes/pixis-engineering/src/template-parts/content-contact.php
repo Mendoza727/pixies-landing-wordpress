@@ -9,7 +9,7 @@
                         <h1 class="section-main-title">For Business Planing.</h1>
                     </div>
                     <div class="contact_from_box">
-                        <form action="https://formspree.io/f/myyleorq" method="POST" id="dreamit-form">
+                        <form action="https://formspree.io/f/xjkrowap" method="POST" id="dreamit-form">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form_box">

@@ -45,17 +45,17 @@
             <div class="col-lg-8">
                 <nav class="solutek_menu">
                     <ul class="nav_scroll">
-                        <li><a href="#hero">Inicio</a></li>
-                        <li><a href="#services">Nuestros Servicios</a></li>
-                        <li><a href="#aboutUs">Sobre Nosotros</a></li>
-                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>">Inicio</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>nuestros-servicios">Nuestros Servicios</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>nosotros">Sobre Nosotros</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>blog">Blog</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="col-lg-2">
                 <div class="header-menu-btn">
                     <div class="solutek-btn">
-                        <a class="btn-2" href="#contact">Contactanos</a>
+                        <a class="btn-2" href="<?php echo esc_url(home_url('/')); ?>contactanos">Contactanos</a>
                     </div>
                 </div>
             </div>
@@ -67,11 +67,10 @@
 <div class="mobile-menu mobile-menu-area d-sm-block d-md-block d-lg-none ">
     <nav class="solutek_menu">
         <ul class="nav_scroll">
-            <li><a href="#hero">Inicio</a></li>
-            <li><a href="#services">Nuestros Servicios</a></li>
-            <li><a href="#aboutUs">Sobre Nosotros</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contáctanos</a></li>
+            <li><a href="<?php echo esc_url(home_url('/')); ?>">Inicio</a></li>
+            <li><a href="<?php echo esc_url(home_url('/')); ?>nuestros-servicios">Nuestros Servicios</a></li>
+            <li><a href="<?php echo esc_url(home_url('/')); ?>nosotros">Sobre Nosotros</a></li>
+            <li><a href="<?php echo esc_url(home_url('/')); ?>blog">Blog</a></li>
         </ul>
     </nav>
 </div>

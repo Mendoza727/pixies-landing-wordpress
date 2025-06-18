@@ -12,7 +12,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-lg-6">
                     <div class="about-thumb">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-image.webp" alt="thumb">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-image.webp" 
+                            alt="Técnico eléctrico trabajando en instalaciones de cableado y redes"
+                            title="Especialista en instalaciones eléctricas y redes"
+                            loading="lazy" P>
                     </div>
                 </div>
                 <div class="col-lg-6">
