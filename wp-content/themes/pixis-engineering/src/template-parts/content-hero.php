@@ -23,7 +23,7 @@
                             <a href="about-us.html" class="btn-2">MEET Our Experts</a>
                         </div>
                         <div class="hero-left-shape">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home-3/hero-animated-loop.webp ?>" alt="Animación circular geométrica con degradado">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home-3/hero-animated-loop.webp" alt="Animación circular geométrica con degradado">
                         </div>
                     </div>
                 </div>
