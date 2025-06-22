@@ -2093,6 +2093,10 @@
     position: relative !important;
   }
 
+  .contact-area {
+    background: none!important;
+  }
+
   .header-btn {
     display: none;
   }
@@ -2793,6 +2797,10 @@
 
   .header-btn {
     display: none;
+  }
+
+  .contact-area {
+    background: none!important;
   }
 
   .sticky .solutek-btn a {
@@ -3596,6 +3604,10 @@
 
   .mean-container .mean-nav ul li a i {
     display: none;
+  }
+
+  .contact-area {
+    background: none!important;
   }
 
   .sticky {

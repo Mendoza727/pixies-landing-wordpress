@@ -636,12 +636,12 @@ h5.section-sub-title {
 }
 
 #last-blogs {
-  color: var(--color-electrifying-green)!important;
-  border: 2px solid var(--color-snow-white)!important;
+  color: var(--color-electrifying-green) !important;
+  border: 2px solid var(--color-snow-white) !important;
 }
 
 #last-blogs::before {
-  background: var(--color-snow-white)!important;
+  background: var(--color-snow-white) !important;
 }
 
 h5.section-sub-title::before {
@@ -728,11 +728,11 @@ p.section-descr::before {
 /* section title home three */
 h6.section-sub-title {
   display: inline-block;
-  font-size: 17px;
+  font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  color: var(--color-emergent-orange);
-  font-weight: 600;
+  color: var(--color-deep-blue);
+  font-weight: bold;
   font-family: "Poppins";
   position: relative;
   z-index: 1;
@@ -743,14 +743,14 @@ h6.section-sub-title::before {
   position: absolute;
   content: "";
   width: 70px;
-  height: 2px;
+  height: 6px;
   background-image: linear-gradient(
     270deg,
     #ffffff 0%,
-    var(--color-emergent-orange) 100%
+    var(--color-electrifying-green) 100%
   );
   left: -76px;
-  top: 12px;
+  top: 35px;
 }
 
 h6.section-sub-title::after {
@@ -763,8 +763,8 @@ h6.section-sub-title::after {
     var(--color-emergent-orange) 0%,
     #ffffff 100%
   );
-  right: -74px;
-  top: 12px;
+  top: 40px;
+  bottom: 40px;
 }
 
 h1.section-main-title2 {
@@ -777,12 +777,12 @@ h1.section-main-title2 {
 }
 
 .about-section h6.section-sub-title {
-  margin-left: 70px;
+  margin-left: 4px;
 }
 
 .about-section h6.section-sub-title::before {
-  width: 60px;
-  left: -69px;
+  width: 250px;
+  left: 0px;
 }
 
 .about-section h6.section-sub-title::after {
@@ -866,7 +866,7 @@ h1.section-main-title2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 120px 0 120px;
+  padding: 50px 0 30px;
   position: relative;
 }
 
@@ -992,7 +992,7 @@ h1.section-main-title2 {
 =======================================*/
 
 .blog-area {
-  padding: 50px 0 89px;
+  padding: 50px 0 30px;
   background: linear-gradient(
     100deg,
     rgba(0, 95, 171, 1) 0%,
@@ -1109,7 +1109,7 @@ p.blog-tex {
 .blog-content-tow {
   background: #fff;
   border-radius: 20px 20px 20px 20px;
-  padding: 36px 29px 26px 0;
+  padding: 30px;
 }
 
 .blog-thumb-tow {
@@ -1208,7 +1208,7 @@ h3.blog-title-two a:hover {
 =======================================*/
 
 .about-area {
-  padding: 0 0 120px;
+  padding: 50px 0 30px;
   position: relative;
   z-index: 1;
 }
@@ -3378,7 +3378,7 @@ ul.list-style-one li a:hover {
 <!-- Start solutek service Area style two  -->
 <!-- =====================================-->*/
 .service-area.style-two {
-  padding: 60px 0 0px;
+  padding: 50px 0 30px;
 }
 
 .service-area.style-two .section-title.text-center {
@@ -4715,7 +4715,7 @@ ul.list-style-one li a:hover {
   <!-- start solutek about section -->
 =========================================================---*/
 .about-section {
-  padding: 0px 0 60px;
+  padding: 50px 0 30px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5172,11 +5172,11 @@ ul.list-style-one li a:hover {
 =========================================================---*/
 .breadcumb-area {
   background: url(assets/images/inner/breadcumb-bg.png);
-  padding: 230px 0 170px;
+  padding: 80px 0 104px;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-  margin: -77px 0px 0 -16px;
+  margin: 10px 0px 0 0px;
 }
 
 .breadcumb-area.about {

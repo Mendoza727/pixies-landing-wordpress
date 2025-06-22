@@ -21,7 +21,7 @@
                 <div class="col-lg-6">
                     <div class="about-contact">
                         <div class="section-title text-left">
-                            <h6 class="section-sub-title">about company</h6>
+                            <h6 class="section-sub-title">Nuestra trayectoria ¿Quienes somos?</h6>
                             <h1 class="section-main-title">Customized Solutions to</h1>
                             <h1 class="section-main-title">Meet Client <span>Needs.</span></h1>
                             <p class="section-title-descr">Solution is a long established fact that a reader will be distracted the reada content of a page when looking at layout the point.</p>

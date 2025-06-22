@@ -71,6 +71,7 @@
             <li><a href="<?php echo esc_url(home_url('/')); ?>nuestros-servicios">Nuestros Servicios</a></li>
             <li><a href="<?php echo esc_url(home_url('/')); ?>nosotros">Sobre Nosotros</a></li>
             <li><a href="<?php echo esc_url(home_url('/')); ?>blog">Blog</a></li>
+            <li><a href="<?php echo esc_url(home_url('/')); ?>contactanos">Contacto</a></li>
         </ul>
     </nav>
 </div>

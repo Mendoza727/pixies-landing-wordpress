@@ -90,21 +90,30 @@
         </div>
     </div>
 </div>
-<div class="row copyright">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-        <div class="copyright-text">
-            <p>© Copyright <span id="current-year"></span> By Pixis Engineering sas</p>
-        </div>
+<div class="row copyright align-items-center text-center">
+  <!-- Columna izquierda -->
+  <div class="col-lg-4 col-md-4 col-sm-12 mb-2 mb-md-0">
+    <div class="copyright-text">
+      <p>© Copyright <span id="current-year"></span> By Pixis Engineering sas</p>
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-        <div class="copyright-list">
-            <ul>
-                <li><a href="index.html">Privacy Policy</a></li>
-                <li><a href="index-2.html">Supports</a></li>
-            </ul>
-        </div>
+  </div>
+
+  <!-- Imagen en el centro -->
+  <div class="col-lg-4 col-md-4 col-sm-12 mb-2 mb-md-0">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/penguin.webp" alt="logo-empresa-" class="img-fluid mx-auto d-block" style="max-height: 40px;" loading="lazy">
+  </div>
+
+  <!-- Columna derecha -->
+  <div class="col-lg-4 col-md-4 col-sm-12">
+    <div class="copyright-list">
+      <ul class="list-inline m-0">
+        <li class="list-inline-item"><a href="index.html">Privacy Policy</a></li>
+        <li class="list-inline-item"><a href="index-2.html">Supports</a></li>
+      </ul>
     </div>
+  </div>
 </div>
+
 
 
 <script>

@@ -13,22 +13,49 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form_box">
-                                        <input type="text" name="name" placeholder="Nombre *">
+                                        <input
+                                            type="text"
+                                            name="fullname"
+                                            placeholder="Tu nombre completo *"
+                                            required
+                                            autocomplete="name"
+                                            aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form_box">
-                                        <input type="email" name="email" placeholder="Correo *">
+                                        <input
+                                            type="email"
+                                            name="email"
+                                            placeholder="Correo *"
+                                            placeholder="ejemplo@correo.com"
+                                            required
+                                            autocomplete="email"
+                                            aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form_box">
-                                        <input type="text" name="subject" placeholder="Telefono *">
+                                        <input
+                                            type="tel"
+                                            name="phone"
+                                            placeholder="Ej: +57 300 123 4567"
+                                            required
+                                            autocomplete="tel"
+                                            pattern="[\d\s\+\-()]{7,20}"
+                                            aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form_box">
-                                        <input type="text" name="phone" placeholder="Ciudad *">
+                                        <input
+                                            type="text"
+                                            id="city"
+                                            name="city"
+                                            placeholder="Ej: Bogotá"
+                                            required
+                                            autocomplete="address-level2"
+                                            aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
@@ -48,3 +75,11 @@
         </div>
     </div>
 </section>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const form = document.getElementById('dreamit-form');
+        if (form) {
+            form.reset();
+        }
+    });
+</script>

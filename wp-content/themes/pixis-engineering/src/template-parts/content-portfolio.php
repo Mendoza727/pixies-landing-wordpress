@@ -24,7 +24,7 @@
         <div class="col-lg-12 col-md-12">
           <div class="project-single-box">
             <div class="project-thumb rounded">
-              <img src="https://placehold.co/340x350.png" alt="project1" />
+              <img src="https://placehold.co/340x350.webp" alt="project1"  loading="lazy"/>
             </div>
             <div class="project-content">
               <h3 class="project-title">
@@ -36,7 +36,7 @@
         <div class="col-lg-12 col-md-12">
           <div class="project-single-box">
             <div class="project-thumb">
-              <img src="https://placehold.co/340x350.png" alt="project1" />
+              <img src="https://placehold.co/340x350.webp" alt="project1" loading="lazy"/>
             </div>
             <div class="project-content">
               <h3 class="project-title">
@@ -49,8 +49,9 @@
           <div class="project-single-box">
             <div class="project-thumb">
               <img
-                src="http://localhost/template/solutek-demo/assets/images/project3.png"
+                src="https://placehold.co/340x350.webp"
                 alt="project1"
+                loading="lazy"
               />
             </div>
             <div class="project-content">
@@ -64,8 +65,9 @@
           <div class="project-single-box">
             <div class="project-thumb">
               <img
-                src="http://localhost/template/solutek-demo/assets/images/project3.png"
+                src="https://placehold.co/340x350.webp"
                 alt="project1"
+                loading="lazy"
               />
             </div>
             <div class="project-content">
@@ -79,8 +81,9 @@
           <div class="project-single-box">
             <div class="project-thumb">
               <img
-                src="http://localhost/template/solutek-demo/assets/images/project3.png"
+                src="https://placehold.co/340x350.webp"
                 alt="project1"
+                loading="lazy"
               />
             </div>
             <div class="project-content">
@@ -94,8 +97,9 @@
           <div class="project-single-box">
             <div class="project-thumb">
               <img
-                src="http://localhost/template/solutek-demo/assets/images/project3.png"
+                src="https://placehold.co/340x350.webp"
                 alt="project1"
+                loading="lazy"
               />
             </div>
             <div class="project-content">
@@ -109,8 +113,9 @@
           <div class="project-single-box">
             <div class="project-thumb">
               <img
-                src="http://localhost/template/solutek-demo/assets/images/project3.png"
+                src="https://placehold.co/340x350.webp"
                 alt="project1"
+                loading="lazy"
               />
             </div>
             <div class="project-content">
@@ -124,8 +129,9 @@
           <div class="project-single-box">
             <div class="project-thumb">
               <img
-                src="http://localhost/template/solutek-demo/assets/images/project3.png"
+                src="https://placehold.co/340x350.webp"
                 alt="project1"
+                loading="lazy"
               />
             </div>
             <div class="project-content">
@@ -139,8 +145,9 @@
           <div class="project-single-box">
             <div class="project-thumb">
               <img
-                src="http://localhost/template/solutek-demo/assets/images/project3.png"
+                src="https://placehold.co/340x350.webp"
                 alt="project1"
+                loading="lazy"
               />
             </div>
             <div class="project-content">
@@ -154,8 +161,9 @@
           <div class="project-single-box">
             <div class="project-thumb">
               <img
-                src="http://localhost/template/solutek-demo/assets/images/project3.png"
+                src="https://placehold.co/340x350.webp"
                 alt="project1"
+                loading="lazy"
               />
             </div>
             <div class="project-content">
@@ -169,8 +177,9 @@
           <div class="project-single-box">
             <div class="project-thumb">
               <img
-                src="http://localhost/template/solutek-demo/assets/images/project3.png"
+                src="https://placehold.co/340x350.webp"
                 alt="project1"
+                loading="lazy"
               />
             </div>
             <div class="project-content">
@@ -193,35 +202,35 @@
         <div class="col-lg-12">
           <div class="brand-box">
             <div class="brand-thumb">
-              <img src="https://placehold.co/160x40.png" alt="brand img" />
+              <img src="https://placehold.co/160x40.webp" alt="brand img" />
             </div>
           </div>
         </div>
         <div class="col-lg-12">
           <div class="brand-box">
             <div class="brand-thumb">
-              <img src="https://placehold.co/160x40.png" alt="brand img" />
+              <img src="https://placehold.co/160x40.webp" alt="brand img" loading="lazy"/>
             </div>
           </div>
         </div>
         <div class="col-lg-12">
           <div class="brand-box">
             <div class="brand-thumb">
-              <img src="https://placehold.co/160x40.png" alt="brand img" />
+              <img src="https://placehold.co/160x40.webp" alt="brand img" loading="lazy"/>
             </div>
           </div>
         </div>
         <div class="col-lg-12">
           <div class="brand-box">
             <div class="brand-thumb">
-              <img src="https://placehold.co/160x40.png" alt="brand img" />
+              <img src="https://placehold.co/160x40.webp" alt="brand img" loading="lazy"/>
             </div>
           </div>
         </div>
         <div class="col-lg-12">
           <div class="brand-box">
             <div class="brand-thumb">
-              <img src="https://placehold.co/160x40.png" alt="brand img" />
+              <img src="https://placehold.co/160x40.webp" alt="brand img" />
             </div>
           </div>
         </div>
