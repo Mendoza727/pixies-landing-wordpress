@@ -362,7 +362,7 @@
   }
 
   .single-counter-box {
-    right: 12px;
+    right: 20px !important;
     top: 12px;
   }
 
@@ -718,8 +718,8 @@
   }
 
   .single-counter-box {
-    right: 20px;
-    top: 12px;
+    right: 20px !important;
+    top: 12px !important;
   }
 
   .project-area.style-two .row.project {
@@ -1301,8 +1301,9 @@
   }
 
   .single-counter-box {
-    right: -2px;
+    right: -30px !important;
     top: 83px;
+    scale: 0.86 !important;
   }
 
   .about-us-shape2 {
@@ -1498,6 +1499,10 @@
   .blog-details-comment-reply {
     right: 22px;
     top: 10px;
+  }
+
+  h6.section-sub-title::before {
+    top: 65px !important;
   }
 }
 
@@ -2079,6 +2084,16 @@
   .blog-details-author-talk {
     padding: 41px 30px 40px;
   }
+
+  h6.section-sub-title::before {
+    top: 40px !important;
+  }
+
+  .single-counter-box {
+    right: 86px !important;
+    top: -12px !important;
+    padding: 55px 44px 7px !important;
+  }
 }
 
 /* Large Mobile :600px. */
@@ -2094,7 +2109,7 @@
   }
 
   .contact-area {
-    background: none!important;
+    background: none !important;
   }
 
   .header-btn {
@@ -2779,7 +2794,21 @@
   }
 
   .address-box2 {
-    float: unset!important;
+    float: unset !important;
+  }
+
+  h6.section-sub-title::before {
+    top: 65px !important;
+  }
+
+  .about-section .about-contact {
+    margin-left: 0px !important;
+    padding: 15px !important;
+  }
+
+  .single-counter-box {
+    right: 76px !important;
+    top: 150px !important;
   }
 }
 
@@ -2800,7 +2829,7 @@
   }
 
   .contact-area {
-    background: none!important;
+    background: none !important;
   }
 
   .sticky .solutek-btn a {
@@ -3591,7 +3620,21 @@
   }
 
   .address-box2 {
-    float: unset!important;
+    float: unset !important;
+  }
+
+  h6.section-sub-title::before {
+    top: 65px !important;
+  }
+
+  .about-section .about-contact {
+    margin-left: 0px !important;
+    padding: 15px !important;
+  }
+
+  .single-counter-box {
+    right: 76px !important;
+    top: 150px !important;
   }
 }
 
@@ -3607,7 +3650,7 @@
   }
 
   .contact-area {
-    background: none!important;
+    background: none !important;
   }
 
   .sticky {
@@ -4570,6 +4613,20 @@
   }
 
   .address-box2 {
-    float: unset!important;
+    float: unset !important;
+  }
+
+  h6.section-sub-title::before {
+    top: 65px !important;
+  }
+
+  .about-section .about-contact {
+    margin-left: 0px !important;
+    padding: 15px !important;
+  }
+
+  .single-counter-box {
+    right: 76px !important;
+    top: 150px !important;
   }
 }

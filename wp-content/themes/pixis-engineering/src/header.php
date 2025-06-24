@@ -4,25 +4,48 @@
             <div class="col-lg-8">
                 <div class="header-info">
                     <ul>
-                        <li><i class="bi bi-geo-alt-fill"></i>
-                            <?php echo esc_html(get_theme_mod('pixis_header_address', 'Carrera 55 #159-53 Bogotá, Colombia.')); ?>
-                        </li>
-                        <li class="exam-gmail"><i class="bi bi-envelope"></i>
-                            <?php echo esc_html(get_theme_mod('pixis_header_email', 'example@gmail.com')); ?>
-                        </li>
+                        <?php if (get_theme_mod('pixis_header_address')) : ?>
+                            <li><i class="bi bi-geo-alt-fill"></i>
+                                <?php echo esc_html(get_theme_mod('pixis_header_address')); ?>
+                            </li>
+                        <?php endif; ?>
+
+                        <?php if (get_theme_mod('pixis_header_email')) : ?>
+                            <li class="exam-gmail"><i class="bi bi-envelope"></i>
+                                <?php echo esc_html(get_theme_mod('pixis_header_email')); ?>
+                            </li>
+                        <?php endif; ?>
                     </ul>
                 </div>
             </div>
+
             <div class="col-lg-4">
-                <div class="top-header-social-icon">
-                    <span class="social-label">Conéctate a nuestras redes:</span>
-                    <ul>
-                        <li><a href="<?php echo esc_url(get_theme_mod('pixis_social_facebook', '#')); ?>" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="<?php echo esc_url(get_theme_mod('pixis_social_linkedin', '#')); ?>" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="<?php echo esc_url(get_theme_mod('pixis_social_instagram', '#')); ?>" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="<?php echo esc_url(get_theme_mod('pixis_social_youtube', '#')); ?>" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                    </ul>
-                </div>
+                <?php
+                $facebook  = get_theme_mod('pixis_social_facebook');
+                $linkedin  = get_theme_mod('pixis_social_linkedin');
+                $instagram = get_theme_mod('pixis_social_instagram');
+                $youtube   = get_theme_mod('pixis_social_youtube');
+                ?>
+
+                <?php if ($facebook || $linkedin || $instagram || $youtube) : ?>
+                    <div class="top-header-social-icon">
+                        <span class="social-label">Conéctate a nuestras redes:</span>
+                        <ul>
+                            <?php if ($facebook) : ?>
+                                <li><a href="<?php echo esc_url($facebook); ?>" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <?php endif; ?>
+                            <?php if ($linkedin) : ?>
+                                <li><a href="<?php echo esc_url($linkedin); ?>" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <?php endif; ?>
+                            <?php if ($instagram) : ?>
+                                <li><a href="<?php echo esc_url($instagram); ?>" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <?php endif; ?>
+                            <?php if ($youtube) : ?>
+                                <li><a href="<?php echo esc_url($youtube); ?>" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            <?php endif; ?>
+                        </ul>
+                    </div>
+                <?php endif; ?>
             </div>
         </div>
     </div>
@@ -48,7 +71,7 @@
                         <li><a href="<?php echo esc_url(home_url('/')); ?>">Inicio</a></li>
                         <li><a href="<?php echo esc_url(home_url('/')); ?>nuestros-servicios">Nuestros Servicios</a></li>
                         <li><a href="<?php echo esc_url(home_url('/')); ?>nosotros">Sobre Nosotros</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>blog">Blog</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>blog">Blogs</a></li>
                     </ul>
                 </nav>
             </div>
@@ -70,7 +93,7 @@
             <li><a href="<?php echo esc_url(home_url('/')); ?>">Inicio</a></li>
             <li><a href="<?php echo esc_url(home_url('/')); ?>nuestros-servicios">Nuestros Servicios</a></li>
             <li><a href="<?php echo esc_url(home_url('/')); ?>nosotros">Sobre Nosotros</a></li>
-            <li><a href="<?php echo esc_url(home_url('/')); ?>blog">Blog</a></li>
+            <li><a href="<?php echo esc_url(home_url('/')); ?>blog">Blogs</a></li>
             <li><a href="<?php echo esc_url(home_url('/')); ?>contactanos">Contacto</a></li>
         </ul>
     </nav>

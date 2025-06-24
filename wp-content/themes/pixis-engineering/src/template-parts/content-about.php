@@ -33,7 +33,7 @@
                             </ul>
                         </div>
                         <div class="solutek-btn">
-                            <a href="about-us.html">EXPLORE MORE
+                            <a href="<?php echo esc_url(home_url('/')); ?>nosotros">Conocenos
                                 <div class="solutek-hover-btn hover-bx"></div>
                                 <div class="solutek-hover-btn hover-bx2"></div>
                                 <div class="solutek-hover-btn hover-bx3"></div>

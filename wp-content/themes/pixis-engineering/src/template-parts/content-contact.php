@@ -5,8 +5,8 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="section-title text-left">
                         <h5 class="section-sub-title">Contactanos</h5>
-                        <h1 class="section-main-title">Make an Online Appoinemnt Booking</h1>
-                        <h1 class="section-main-title">For Business Planing.</h1>
+                        <h1 class="section-main-title"><?php echo get_theme_mod('pixis_contact_h1_line1'); ?></h1>
+                        <h1 class="section-main-title"><?php echo get_theme_mod('pixis_contact_h1_line2'); ?></h1>
                     </div>
                     <div class="contact_from_box">
                         <form action="https://formspree.io/f/xjkrowap" method="POST" id="dreamit-form">

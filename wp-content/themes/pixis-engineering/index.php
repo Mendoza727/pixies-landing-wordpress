@@ -16,15 +16,15 @@ get_header();
     <div class="curser d-none"></div>
     <div class="curser2 d-none"></div>
 
-      <!-- ==== SECCIONES DE LA HOME ==== -->
-      <?php
-      include(get_template_directory() . '/src/template-parts/content-hero.php');
-      include(get_template_directory() . '/src/template-parts/content-services.php');
-      include(get_template_directory() . '/src/template-parts/content-about.php');
-      include(get_template_directory() . '/src/template-parts/content-portfolio.php');
-      include(get_template_directory() . '/src/template-parts/content-contact.php');
-      include(get_template_directory() . '/src/template-parts/content-blog.php');
-      ?>
+    <!-- ==== SECCIONES DE LA HOME ==== -->
+    <?php
+    include(get_template_directory() . '/src/template-parts/content-hero.php');
+    include(get_template_directory() . '/src/template-parts/content-services.php');
+    include(get_template_directory() . '/src/template-parts/content-about.php');
+    include(get_template_directory() . '/src/template-parts/content-portfolio.php');
+    include(get_template_directory() . '/src/template-parts/content-contact.php');
+    include(get_template_directory() . '/src/template-parts/content-blog.php');
+    ?>
 
     <!-- top to tap -->
     <div class="scroll-area">

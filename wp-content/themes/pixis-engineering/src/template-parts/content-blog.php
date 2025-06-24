@@ -20,7 +20,7 @@
                 <div class="col-xl-5 col-lg-6 col-md-6">
                     <div class="blog-singele-box">
                         <div class="blog-thumb">
-                            <img src="https://placehold.co/600x600.webp" alt="blog1" loading="lazy">
+                            <img src="https://placehold.co/500x600.webp" alt="blog1" loading="lazy">
                         </div>
                         <div class="blog-content">
                             <h3 class="blog-title"><a href="blog-details.html">Leveraging Descriptive Solutions for Business Growth.</a></h3>
@@ -35,7 +35,7 @@
                 <div class="col-xl-7 col-lg-6 col-md-6">
                     <div class="blog-singele-box-tow">
                         <div class="blog-thumb-tow">
-                            <img src="https://placehold.co/600x600.webp" alt="blog1" loading="lazy">
+                            <img src="https://placehold.co/500x600.webp" alt="blog1" loading="lazy">
                         </div>
                         <div class="blog-content-tow">
                             <h3 class="blog-title-two"><a href="blog-details.html">How to Create Modern Web Site For Your Business..</a></h3>
@@ -48,7 +48,7 @@
                     </div>
                     <div class="blog-singele-box-tow">
                         <div class="blog-thumb-tow">
-                            <img src="https://placehold.co/600x600.webp" alt="blog1" loading="lazy">
+                            <img src="https://placehold.co/500x600.webp" alt="blog1" loading="lazy">
                         </div>
                         <div class="blog-content-tow">
                             <h3 class="blog-title-two"><a href="blog-details.html">How to Create Modern Web Site For Your Business..</a></h3>
